@@ -1,0 +1,56 @@
+
+<body classname="snippet-body">
+    <div class="container-fluid px-1 py-5 mx-auto">
+
+
+<div class="card b-0">
+<h3 class="heading">Remplir ce formillier</h3>
+<!-- <p class="desc">Fill out the form or call <span class="yellow-text">123 456 7891</span><br>to start protecting your business today!</p> -->
+
+
+<ul id="progressbar" class="text-center">
+<li class="active step0" id="step1"></li>
+<li class="active step0" id="step2"></li>
+<li class="active step0" id="step3"></li>
+<li class="active step0" id="step4"></li>
+</ul>
+<form>
+<fieldset class="show">
+<div class="form-card">
+<h5 class="sub-heading">Reglement</h5>
+
+<div class="form-group">
+ 
+<label class="form-control-label"> prix payée * :</label>
+<input type="text"  name="prix_payée" placeholder=""  class="form-control" (change)="valeurprix_payee($event)">
+</div>
+<div class="form-group">
+<label class="form-control-label">prix reste * :</label>
+<input type="text" id="fname" name="prix_reste" placeholder=""  class="form-control" (change)="valeurprix_reste($event)">
+</div>
+<div class="form-group">
+<label class="form-control-label">reference reglement * :</label>
+<input type="text" id="fname" name="addres" placeholder=""  class="form-control" (change)="valeurreference_reg($event)">
+</div>
+<div class="form-group">
+<label class="form-control-label">Type payée * :</label>
+<input type="text" id="fname" name="num" placeholder=""  class="form-control" (change)="valeurType_payee($event)">
+</div>
+</div>
+</fieldset> 
+<div *ngIf="idUser==null">
+<a  class="main-btn" routerLink="/etape_fin" style="float: right;">Next</a>
+
+<a  class="main-btn" routerLink="/infofacture/infoProduit" style="float: left; background-color: rgb(255, 152, 152);">Precedent</a>
+</div>
+<div *ngIf="idUser!=null">
+    <a  class="main-btn" routerLink="/welcome/imprimer" style="float: right;">Next</a>
+    
+    <a  class="main-btn" routerLink="/welcome/add/infoProduit" style="float: left; background-color: rgb(255, 152, 152);">Precedent</a>
+    </div>
+</form>
+</div>
+</div>
+
+
+</body>

@@ -1,0 +1,394 @@
+<style>
+	body{ /* Modifications : la couleur de fond de page - la police - l'unité utilisée pour la taille de la police  */
+	  background-color :#fff;
+	  font-family :Serif;
+	  font-size :15pt;
+	  /* width: 90%; */
+	}
+	
+	#page { /* Modifications : suppression de la bordure - marges */
+	  margin :0;
+	 border :none;
+	}
+	
+	#banner, #menuright, #footer { /* Les éléments qui ne seront pas affichés  */
+	  display :none;
+	}
+	
+	h1#top { /* Affichage du titre */
+	  margin :0;
+	  padding :0;
+	  text-indent :0;
+	  line-height :25pt;
+	  font-size :25pt;
+	}
+	.bb{
+		/* width: 80%; */
+		/* max-width: 500px;
+	  margin: auto; */
+		
+	}
+	h2, h3, #contenu h3, #contenu a, a { /* Modification de la couleur des titres et liens */
+	  color :#000;
+	}
+	h1, h2, h3, h4 {
+	   page-break-after:avoid;
+	   break-after: avoid;
+	}
+	reset
+	
+	*
+	{
+		border: 0;
+		box-sizing: content-box;
+		color: inherit;
+		font-family: inherit;
+		font-size: inherit;
+		font-style: inherit;
+		font-weight: inherit;
+		line-height: inherit;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+		vertical-align: top;
+	}
+	
+	/* content editable */
+	
+	*[contenteditable] { border-radius: 0.25em; min-width: 1em; outline: 0; }
+	
+	*[contenteditable] { cursor: pointer; }
+	
+	*[contenteditable]:hover, *[contenteditable]:focus, td:hover *[contenteditable], td:focus *[contenteditable], img.hover { background: #DEF; box-shadow: 0 0 1em 0.5em #DEF; }
+	
+	span[contenteditable] { display: inline-block; }
+	
+	/* heading */
+	
+	h1 { font: bold 100% sans-serif; letter-spacing: 0.5em; text-align: center; text-transform: uppercase; }
+	
+	/* table */
+	
+	table { font-size: 75%; table-layout: fixed; width: 100%; }
+	table { border-collapse: separate; border-spacing: 2px; }
+	th, td { border-width: 1px; padding: 0.5em; position: relative; text-align: left; }
+	th, td { border-radius: 0.25em; border-style: solid; }
+	th { background: #EEE; border-color: #BBB; }
+	td { border-color: #DDD; }
+	
+	/* page */
+	
+	html { font: 16px/1 'Open Sans', sans-serif; overflow: auto; padding: 0.5in; }
+	html { background: #999; cursor: default; }
+	
+	body { box-sizing: border-box; height: 11in; margin: 0 auto; overflow: hidden; padding: 0.5in; width: 8.5in; }
+	body { background: #FFF; border-radius: 1px; box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5); }
+	
+	/* header */
+	
+	header { margin: 0 0 3em; }
+	header:after { clear: both; content: ""; display: table; }
+	
+	header h1 { background: #000; border-radius: 0.25em; color: #FFF; margin: 0 0 1em; padding: 0.5em 0; }
+	header address { float: left; font-size: 75%; font-style: normal; line-height: 1.25; margin: 0 1em 1em 0; }
+	header address p { margin: 0 0 0.25em; }
+	header span, header img { display: block; float: right; }
+	header span { margin: 0 0 1em 1em; max-height: 25%; max-width: 60%; position: relative; }
+	header img { max-height: 100%; max-width: 100%; }
+	header input { cursor: pointer; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; height: 100%; left: 0; opacity: 0; position: absolute; top: 0; width: 100%; }
+	
+	/* article */
+	
+	article, article address, table.meta, table.inventory { margin: 0 0 3em; }
+	article:after { clear: both; content: ""; display: table; }
+	article h1 { clip: rect(0 0 0 0); position: absolute; }
+	
+	article address { float: left; font-size: 125%; font-weight: bold; }
+	
+	/* table meta & balance */
+	
+	table.meta, table.balance { float: right; width: 36%; }
+	table.meta:after, table.balance:after { clear: both; content: ""; display: table; }
+	
+	/* table meta */
+	
+	table.meta th { width: 40%; }
+	table.meta td { width: 60%; }
+	
+	/* table items */
+	
+	table.inventory { clear: both; width: 100%; }
+	table.inventory th { font-weight: bold; text-align: center; }
+	
+	table.inventory td:nth-child(1) { width: 26%; }
+	table.inventory td:nth-child(2) { width: 38%; }
+	table.inventory td:nth-child(3) { text-align: right; width: 12%; }
+	table.inventory td:nth-child(4) { text-align: right; width: 12%; }
+	table.inventory td:nth-child(5) { text-align: right; width: 12%; }
+	
+	/* table balance */
+	
+	table.balance th, table.balance td { width: 50%; }
+	table.balance td { text-align: right; }
+	
+	/* aside */
+	
+	aside h1 { border: none; border-width: 0 0 1px; margin: 0 0 1em; }
+	aside h1 { border-color: #999; border-bottom-style: solid; }
+	
+	/* javascript */
+	
+	.add, .cut
+	{
+		border-width: 1px;
+		display: block;
+		font-size: .8rem;
+		padding: 0.25em 0.5em;	
+		float: left;
+		text-align: center;
+		width: 0.6em;
+	}
+	
+	.add, .cut
+	{
+		background: #9AF;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+		background-image: -moz-linear-gradient(#00ADEE 5%, #0078A5 100%);
+		background-image: -webkit-linear-gradient(#00ADEE 5%, #0078A5 100%);
+		border-radius: 0.5em;
+		border-color: #0076A3;
+		color: #FFF;
+		cursor: pointer;
+		font-weight: bold;
+		text-shadow: 0 -1px 2px rgba(0,0,0,0.333);
+	}
+	
+	.add { margin: -2.5em 0 0; }
+	
+	.add:hover { background: #00ADEE; }
+	
+	.cut { opacity: 0; position: absolute; top: 0; left: -1.5em; }
+	.cut { -webkit-transition: opacity 100ms ease-in; }
+	
+	tr:hover .cut { opacity: 1; }
+	
+	@media print {
+		* { -webkit-print-color-adjust: exact; }
+		html { background: none; padding: 0; }
+		body { box-shadow: none; margin: 0; }
+		span:empty { display: none; }
+		.add, .cut { display: none; }
+	}
+	
+	@page { margin: 0; }
+	
+	
+	</style>
+<!-- <script>
+	// if(type_document=='facture'){
+		// const collection = document.getElementsByClassName("click");
+		document.getElementById("click1").style.backgroundColor = "red";
+	// }
+</script> -->
+	<body class="container"  >
+		<div  class="bb" id="htmlData" style="width: 94%; 
+		 margin: auto;
+		height: auto;
+	
+		padding: 5px;">
+			<p class="fac" style="text-align: center;color:brown; font-size: 40px; font-style:italic;
+" *ngIf="type_document=='facture'" ><b>Facture </b></p> 
+<p class="fac" style="text-align: center;color:brown; font-size: 40px; font-style:italic;
+" *ngIf="type_document=='devise'"><b>Devis </b></p> 
+<p class="fac" style="text-align: center;color:brown; font-size: 40px; font-style:italic;
+" *ngIf="type_document=='bon_commande'"><b>Bon de commande </b></p> 
+<p class="fac" style="text-align: center;color:brown; font-size: 40px; font-style:italic;
+" *ngIf="type_document=='avoire'"><b>Avoire </b></p> 
+<p class="fac" style="text-align: center;color:brown; font-size: 40px; font-style:italic;
+" *ngIf="type_document=='bon_livraison'"><b>Bon livraison </b></p> 
+<!--  -->
+<p class="fac" style="text-align: center;color:brown; font-size: 40px; font-style:italic;
+" *ngIf="type_document=='demande_prix'"><b>Demande de Prix </b></p> 
+<p class="fac" style="text-align: center;color:brown; font-size: 40px; font-style:italic;
+" *ngIf="type_document=='bon_achat'"><b>Bon Achat</b></p>  
+		<header>
+			
+			<address class="addRef" style="float: right; font-size: 12px;" >
+<div>
+<qr-code [value]="'https://itic-solution.com/'"></qr-code>
+
+</div>
+                <br>
+				<div>
+				<p *ngIf="numFac!=null"><b >Ref  :  {{l}}{{numFac}}</b></p>
+				<p *ngIf="date_f!=null">Date Facturation  :  {{date_f}}</p>
+				<p *ngIf="date_ech!=null">Date échéance  :  {{date_ech}}</p>
+			</div>
+			</address>
+            <address style="float: left; width: 20%;" *ngIf="log_user!=null && log_user!=''">
+               <img class="img" src="http://127.0.0.1:8000/storage/{{log_user}}" style="border-radius: 50%; width: 60%;">
+			</address> 
+		</header>
+		<table class="tb" style="width: 70%; height: 100px ; float: right;font-size: 10px;line-height : 1.5;width: 30%;" *ngIf="nom_client!=null">
+			<!-- <p class="v" style="float: right;">Adressé :</p> Nom_produit-->
+				
+				<td  ><span class="sptb" style="font-size: 15px; font-weight: bold;">{{nom_client}}</span><br>
+					<div style="line-height : 0.25;">
+					<p *ngIf="ice_client!=null || ice_client!=''">Code client : {{ice_client}}</p>
+					<p *ngIf="add_client!=null || add_client!=''">Adresse client : {{add_client}}</p>
+					<p *ngIf="tele_client!=null || tele_client!=''">telephone de client : {{tele_client}}</p>
+					<p *ngIf="inAuter!=null || inAuter!=''"> {{inAuter}}: {{valAuter}}</p>
+				</div>
+				</td>
+			
+			
+		</table>
+		<article class="arti" style="font-size: 11px;">
+			<div class="artidiv"  *ngIf="nom_socieite!=null || Adresse!=null || capitale!=null || CNSS!=null || ICE_user!=null || email!=null || TEL1!=null || TEL2!=null || FIX!=null || TP!=null || TF!=null || sit_web!=null">
+			<address class="atiadd" >
+				<p *ngIf="nom_socieite!=null && nom_socieite!=''" style="font-weight: bold;">Nom Fournisseur : {{nom_socieite}}</p>
+                <p *ngIf="Adresse!=null && Adresse!=''" style="font-weight: normal;"> Adresse : {{Adresse}}</p>
+                <p *ngIf="capitale!=null && capitale!=''" style="font-weight: normal;">capitale : {{capitale}}</p>
+                <p *ngIf="CNSS!=null && CNSS!=''" style="font-weight: normal;">CNSS : {{CNSS}}</p>
+				<p *ngIf="ICE_user!=null && ICE_user!=''" style="font-weight: normal;">ICE : {{ICE_user}}</p>
+                
+                <p *ngIf="email!=null && email!=''" style="font-weight: normal;">E-Mail : {{email}}</p>
+                <p *ngIf="TEL1!=null && TEL1!=''" style="font-weight: normal;">TEL 1 : {{TEL1}}</p>
+				<p *ngIf="TEL2!=null && TEL2!=''" style="font-weight: normal;">TEL 2 : {{TEL2}}</p>
+				<p *ngIf="FIX!=null && FIX!=''" style="font-weight: normal;">FIX : {{FIX}}</p>
+				<p *ngIf="TP!=null && TP!=''" style="font-weight: normal;">TP : {{TP}}</p>
+				<p *ngIf="TF!=null && TF!=''" style="font-weight: normal;">TF : {{TF}}</p>
+                <p *ngIf="sit_web!=null && sit_web!=''" style="font-weight: normal;">web : {{sit_web}}</p>
+			</address>
+        </div>
+			
+			<table class="inventory" style="font-size: 12px;">
+				<thead>
+					<tr >
+						<th ><span >Nom Produits</span></th>
+						<th><span >Reference</span></th>
+						
+
+						<th *ngIf="type_document!='demande_prix'"><span >TVA</span></th>
+						<th *ngIf="type_document!='demande_prix'"><span >P.U.HT</span></th>
+						<th ><span >Quantity</span></th>
+						<th *ngIf="type_document!='demande_prix'"><span >TOTAL HT</span></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr *ngFor="let data of p">
+						<th *ngIf="data.Nom_produit!=null"><span >{{data.Nom_produit}}</span></th>
+
+						<td ><span *ngIf="data.reference!=null ">{{data.reference}}</span></td>
+						<td *ngIf="type_document!='demande_prix'"><span *ngIf="Taux_TVA!=null">{{data.Taux_TVA}}%</span></td>
+						<td *ngIf="type_document!='demande_prix'"><i *ngIf="PU_HT!=null ">{{data.PU_HT}}</i></td>
+						<td ><i *ngIf="quantity!=null ">{{data.quantity}}</i></td>
+						<td *ngIf="type_document!='demande_prix'"><i *ngIf="quantity!=null && PU_HT!=null ">{{data.quantity * data.PU_HT }}</i ></td>
+					</tr>
+				</tbody>
+			</table>
+			<address *ngIf="reference_reg!=null && type_document!='demande_prix'">
+                <p>condition de réglement : {{reference_reg}}</p>
+            </address>
+			<table class="balance" style="font-size: 12px;" *ngIf=" type_document!='demande_prix'">
+				<tr *ngIf="totalHt!=0">
+					<th><span >Total HT</span></th>
+					<td>{{totalHt}}</td>
+				</tr>
+				<tr *ngIf="totalHt!=0">
+					<th><span >TOTAL TVA </span></th>
+					<td>{{totaltva}}%</td>
+				</tr>
+				<tr *ngIf="totalHt!=0">
+					<th><span >TOTAL TTC </span></th>
+					<td>{{(totaltva * totalHt)/100}}</td>
+				</tr>
+				<tr *ngIf="prix_payee!=null">
+					<th><span >Payée</span></th>
+					<td>{{prix_payee}}</td>
+				</tr>
+                <tr *ngIf="prix_reste!=null">
+					<th><span >Reste payée</span></th>
+					<td>{{prix_reste}}</td>
+				</tr>
+			</table>
+			<br><br>
+			<p style="font-weight: bold;width: 40%;float: left;">Vertesement déja effictués</p>
+<br><br>
+          <table style="width: 40%; float: left;" *ngIf=" type_document!='demande_prix'">
+			<tr >
+				<td>
+					Reglement
+				</td>
+				<td>
+					Monant
+				</td>
+				<td>
+					Type
+				</td>
+			</tr>
+		
+			<tr>
+				<td>
+					{{reglement}}
+				</td>
+				<td>
+					{{(totaltva * totalHt)/100}}
+				</td>
+				<td>
+					{{Type_payee}}
+				</td>
+			</tr>
+		  </table>
+         <!-- <div class="row" style="width: 40%; float: left;">
+            <p style="font-weight: bold;">Vertesement déja effictués</p>
+            <hr>
+            <div class="col-sm-4" *ngIf="reglement!=null">
+                   Reglement
+            </div>
+            <div class="col-sm-4" *ngIf="totalHt!=0">
+                Monant
+         </div>
+         <div class="col-sm-4" *ngIf="Type_payee!=null">
+            Type
+          </div>
+         
+            <hr>
+         </div>
+         <br><br><br><br><br><br>
+         <div class="row" style="width: 40%; float: left;">
+          
+            <div class="col-sm-4" *ngIf="reglement!=null">
+                   {{reglement}}
+            </div>
+            <div class="col-sm-4" *ngIf="totalHt!=0">
+                {{(totaltva * totalHt)/100}}
+         </div>
+         <div class="col-sm-4" *ngIf="Type_payee!=null">
+            {{Type_payee}}
+          </div>
+        
+            <hr>
+         </div> -->
+  
+		</article>
+		
+		<div style=" text-align: center;">
+			<div style="
+		
+		   font-size: 12px;
+			bottom: -250px;
+			/* position:relative; */
+		   
+			" *ngIf="numFac!=null">
+					  <span *ngIf="numFac!=null">{{l}}:{{numFac}}</span>
+					  <hr>
+					  <div *ngIf="capitale!=null">
+						  <p >capital:{{capitale}}</p>
+					  </div>
+				  </div>
+	</div>
+	
+</div>
+	</body>

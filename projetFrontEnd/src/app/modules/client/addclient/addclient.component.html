@@ -1,0 +1,81 @@
+<body classname="snippet-body">
+    <div class="container-fluid px-1 py-5 mx-auto">
+
+
+<div class="card b-0">
+<h3 class="heading">Remplir ce formillier</h3>
+<!-- <p class="desc">Fill out the form or call <span class="yellow-text">123 456 7891</span><br>to start protecting your business today!</p> -->
+
+
+<ul id="progressbar" class="text-center">
+<li class="active step0" id="step1"></li>
+<li class="active step0" id="step2"></li>
+<li class="step0" id="step3"></li>
+<li class="step0" id="step4"></li>
+</ul>
+<form>
+<fieldset class="show">
+<div class="form-card">
+<h5 class="sub-heading">Client</h5>
+
+<div class="form-group" *ngIf="idUser==null || auther">
+<label class="form-control-label" > Nom du client * :</label>
+<input type="text" id="fname" name="nom_client" placeholder=""  class="form-control" (change)="valeurNom($event)">
+</div>
+<div class="form-group" *ngIf="idUser==null || auther">
+<label class="form-control-label">ICE * :</label>
+<input type="text" id="fname" name="ice" placeholder=""  class="form-control" (change)="valeurice($event)">
+</div>
+<div class="form-group" *ngIf="idUser==null || auther">
+<label class="form-control-label">Adresse du client * :</label>
+<input type="text" id="fname" name="addres" placeholder=""  class="form-control" (change)="valeurAdd($event)">
+</div>
+<div class="form-group" *ngIf="idUser==null || auther">
+<label class="form-control-label">numéro de telefone du client * :</label>
+<input type="text" id="fname" name="num" placeholder=""  class="form-control" (change)="valeurtele($event)">
+</div>
+<div class="form-group" *ngIf="idUser!=null && auther==false">
+    <label class="form-control-label" > Nom du client * :</label>
+    <select (change)="valeur($event)">
+        <option style="color: rgb(197, 197, 197);">choisi client</option><hr>
+        <option *ngFor="let clients of clients" value="{{clients.id}}" >{{clients.Nom_client}}</option>
+        <option style="color: red;" value="auther">auther</option>
+    </select>
+    </div>
+
+    <!-- <div class="form-group" *ngIf="idUser!=null && auther==false">
+    <label class="form-control-label">ICE * :</label>
+    <input type="text" id="fname" name="ice" placeholder=""  class="form-control" value="{{client.ICE}}" (keyup)="valeurice($event)" >
+    </div>
+    <div class="form-group" *ngIf="idUser!=null && auther==false">
+    <label class="form-control-label">Adresse du client * :</label>
+    <input type="text" id="fname" name="addres" placeholder=""  class="form-control" value="{{client.Adresse_client}}" (change)="valeurAdd($event)" >
+    </div>
+    <div class="form-group" *ngIf="idUser!=null && auther==false">
+    <label class="form-control-label">numéro de telefone du client * :</label>
+    <input type="text" id="fname" name="num" placeholder=""  class="form-control" value="{{client.tele_client}}" (change)="valeurtele($event)" >
+    </div> -->
+<div class="form-group" >
+    <label class="form-control-label">Auter * :</label><br>
+    <input type="text" id="fname" name="num" placeholder=""   style="width: 40%; float: left;" (change)="inpAuter($event)"><b style="text-align:center; border: 100px;">:</b><input type="text"  placeholder=""   style="width: 40%; float: right;" (change)="valeurAuter($event)">
+    </div>
+</div>
+</fieldset> 
+<div *ngIf="idUser==null">
+<a  class="main-btn" routerLink="/infofacture/infoProduit" style="float: right;" >Next</a>
+
+<a  class="main-btn" routerLink="/infofacture" style="float: left; background-color: rgb(255, 152, 152);">Precedent</a>
+</div>
+<div *ngIf="idUser!=null">
+    <a  class="main-btn" routerLink="/welcome/add/infoProduit" style="float: right;" >Next</a>
+    
+    <a  class="main-btn" routerLink="/welcome/add/facture" style="float: left; background-color: rgb(255, 152, 152);">Precedent</a>
+    </div>
+
+
+</form>
+</div>
+</div>
+
+
+</body>

@@ -1,0 +1,106 @@
+<br><br><br><br><br>
+<ul class="navbar-nav navbar-nav-right">
+  <li class="nav-item dropdown d-none d-lg-block">
+    <a class="nav-link btn btn-success create-new-button" id="createbuttonDropdown" data-toggle="dropdown" aria-expanded="false" routerLink="/welcome/info_categorier/ajouter_categorier" >+ ajouter categorie</a>
+   
+  </li>
+
+
+
+</ul>
+<div class="row mt-8" >
+  <div class="col-md-8 col-xl-12">
+      <div class="card pie-chart-card">
+<div #ContainerRef class="card-body" >
+
+  <div class="d-flex justify-content-center mb-4" >
+      <h2 class="title" >categories</h2>
+  </div>
+      <ngx-charts-bar-vertical
+      [view]="[ContainerRef.offsetWidth, 400]"
+      [scheme]="colorScheme"
+      [results]="multi"
+      [gradient]="gradient"
+      [xAxis]="showXAxis"
+      [yAxis]="showYAxis"
+      [legend]="showLegend"
+      [showXAxisLabel]="showXAxisLabel"
+      [showYAxisLabel]="showYAxisLabel"
+      [xAxisLabel]="xAxisLabel"
+      [yAxisLabel]="yAxisLabel"
+      [legendTitle]="legendTitle"
+    >
+</ngx-charts-bar-vertical>
+</div></div></div></div><br><br>
+<div class="col-12 grid-margin" >
+  
+  <div class="card">
+
+        <button class="nav-link btn btn-success create-new-button" id="createbuttonDropdown" (click)="print()" data-toggle="dropdown" aria-expanded="false"  style="width: 100%;">imprimer</button>
+<!-- <button  class="nav-link btn btn-success create-new-button">print</button> -->
+       
+    
+    <div class="card-body">
+     
+      <div class="table-responsive">
+      
+     
+        <table class="table" id="my_table">
+          <thead>
+            <tr>
+             
+          
+              <th> Nom categorie </th>
+              <th> Status </th>
+            </tr>
+          </thead>
+          <tbody >
+            <tr *ngFor="let data of categories" >
+            
+              <td>{{data.Nom_categorie}}</td>
+              
+              <td  > 
+              <div *ngIf="data.deleted_at!=null" style="color: red; text-align: center;"><a href="/welcome/info_categorier/list" (click)="annulersupp(data.id)">annuler supprimer</a></div>
+             <div *ngIf="data.deleted_at==null">
+              <a class="remove mdi mdi-close-box" style="color: red;"   (click)="delet(data.id)" ></a><i class="mdi mdi-border-color" routerLink="/welcome/info_categorier/update/" style="color:blue;" *ngIf="data.deleted_at==null"></i>
+   
+             </div>
+             <!-- <button class="btn btn-success btn-rounded btn-fw" style="color: red;float: right;" (click)="imprimerfour(data.id)">imprimer</button> -->
+             <img src="assets/iconPDF.png" width="2%" height="2%"  style="float: right;" (click)="imprimerfour(data.id)">
+            
+            </td>
+              <!-- <td> 
+                  <button  class="btn btn-outline-warning" (click)="supp()">supprimer<i class="fa fa-trash"
+                  aria-hidden="true"></i></button></td> -->
+          </tr>
+           
+          
+        
+          
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div style="background-color: rgb(199, 231, 250);width: 100%;">
+  
+
+
+
+<button class="btn btn-danger btn-rounded btn-fw" routerLink="/welcome/info_categorier/ajouter_categorier"> ajouter categorie</button>
+
+        
+<div class="container-scroller" >
+<div class="container-fluid page-body-wrapper" >
+<div class="main-panel" >
+<div class="content-wrapper" >
+<div class=" grid-margin stretch-card" >
+    <div class="card" style="background-color: rgb(109, 101, 101);">
+      <div class="card-body"><div class="chartjs-size-monitor">
+       <div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+        <h4 class="card-title">Bar chart</h4>
+        <canvas id="myChart" style="height: 289px; display: block; width: 578px;" width="578" height="289" class="chartjs-render-monitor" ></canvas>
+      </div>
+    </div>
+  </div></div></div></div></div></div> -->

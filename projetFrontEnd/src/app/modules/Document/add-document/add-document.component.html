@@ -1,0 +1,60 @@
+
+      
+        
+  
+
+<!-- <body classname="snippet-body" style="width: 500%;" > -->
+
+
+    <div class="container-fluid px-1 py-5 mx-auto">
+
+
+<div class="card b-0" style="height: 100%;">
+<h3 class="heading">Remplir ce formillier</h3>
+
+<ul id="progressbar" class="text-center">
+<li class="active step0" id="step1"></li>
+<li class="step0" id="step2"></li>
+<li class="step0" id="step3"></li>
+<li class="step0" id="step4"></li>
+
+</ul>
+<form  method="post"  >
+<fieldset class="show">
+<div class="form-card">
+<!-- <h5 class="sub-heading">Facture/Devis/...;</h5> -->
+
+<div class="form-group">
+    <!-- <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="">YOUR PHONE NUMBER </label>
+        <input (keypress)="keyPress($event)" required type="text" formControlName="phonenumber" class="form-control" placeholder="Enter Your phone Number" [ngClass]="{ 'is-invalid': submitted && f.phonenumber.errors }">
+        <div *ngIf="submitted && f.phonenumber.errors" class="invalid-feedback">
+        <div *ngIf="f.phonenumber.errors.required">Phone number is required</div>
+        <div *ngIf="f.phonenumber.errors.pattern || f.phonenumber.errors.maxlength || f.phonenumber.errors.minlength">Phone number must be at least 10 numbers</div>
+    </div></div><input type="submit" class="mw-ui-btn" value="Submit">
+</form> -->
+    <label class="form-control-label"  > Numero .... * :</label>
+    <input type="text"   placeholder=""  class="form-control"  (change)="valeurNum($event)" 
+    >
+    
+</div>
+<div class="form-group">
+    <label class="form-control-label">date Facture * :</label>
+    <input type="date"  placeholder=""  class="form-control" (change)="valeur_date_fac($event)">
+</div>
+<div class="form-group">
+    <label class="form-control-label">date echéance * :</label>
+    <input type="date"  placeholder=""  class="form-control" (change)="valeur_date($event)">
+</div>
+
+</div>
+</fieldset> 
+<a  class="main-btn" routerLink="/infofacture/infoclient" style="float: right;"  *ngIf="idUser==null">Next</a>
+<a  class="main-btn" routerLink="/welcome/add/infoclient" style="float: right;"  *ngIf="idUser!=null">Next</a>
+</form>
+</div>
+
+
+
+    </div>

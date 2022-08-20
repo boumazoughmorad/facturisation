@@ -1,0 +1,208 @@
+
+
+<nav class="sidebar sidebar-offcanvas" id="sidebar" style="background-color:rgb(164, 214, 255);">
+   
+    <ul class="nav">
+      <li class="nav-item profile">
+        <div class="profile-desc">
+          <div class="profile-pic">
+            <div class="count-indicator" >
+             <!-- <span>{{user|json}}</span> -->
+             <ng-container *ngIf="user && user.image_path  ">
+              <img class="img-xs rounded-circle " src="{{url}}{{user.image_path}}" >
+             </ng-container>
+              
+              <!-- <img class="img-xs rounded-circle " src="http://127.0.0.1:8000/storage/User/gt22rCZxdWOSBrPg5pG4S6kbpngv7v9jThFIpiiO.png" > -->
+
+              
+              <span class="count bg-success"></span>
+            </div>
+            <div class="profile-name">
+             <ng-container *ngIf="user && user.nom_socieite  ">
+
+              <h5 class="mb-0 font-weight-normal">{{user.nom_socieite}}</h5></ng-container>
+              
+            </div>
+           
+          </div>
+          <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
+          <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list" aria-labelledby="profile-dropdown">
+            <a routerLink="/welcome/user/count"class="dropdown-item preview-item">
+              <div class="preview-thumbnail">
+                <div class="preview-icon bg-dark rounded-circle">
+                  <i class="mdi mdi-settings text-primary"></i>
+                </div>
+              </div>
+              <div class="preview-item-content" >
+                <p class="preview-subject ellipsis mb-1 text-small" >Account</p>
+              </div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <!-- <a href="#" class="dropdown-item preview-item">
+              <div class="preview-thumbnail">
+                <div class="preview-icon bg-dark rounded-circle">
+                  <i class="mdi mdi-onepassword  text-info"></i>
+                </div>
+              </div>
+              <div class="preview-item-content">
+                <p class="preview-subject ellipsis mb-1 text-small">Change Password</p>
+              </div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item preview-item">
+              <div class="preview-thumbnail">
+                <div class="preview-icon bg-dark rounded-circle">
+                  <i class="mdi mdi-calendar-today text-success"></i>
+                </div>
+              </div>
+              <div class="preview-item-content">
+                <p class="preview-subject ellipsis mb-1 text-small">To-do list</p>
+              </div>
+            </a> -->
+          </div>
+        </div>
+      </li>
+      <br><br>
+      <li class="nav-item menu-items" *ngIf="Role=='admin'">
+        <a class="nav-link" data-toggle="collapse" routerLink="/welcome" aria-expanded="false" aria-controls="ui-basic">
+          <span class="menu-icon">
+            <i class="mdi mdi-laptop"></i>
+          </span>
+          <span class="menu-title">dashboard</span>
+    
+        </a>
+      
+      </li>
+      <li class="nav-item menu-items" *ngIf="Role=='admin'">
+        <a class="nav-link" data-toggle="collapse" routerLink="/welcome/Roles/listeRoles" aria-expanded="false" aria-controls="ui-basic">
+          <span class="menu-icon">
+            <i class="mdi mdi-laptop"></i>
+          </span>
+          <span class="menu-title">Roles</span>
+    
+        </a>
+      
+      </li>
+      <li class="nav-item menu-items">
+        <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+          <span class="menu-icon">
+            <i class="mdi mdi-laptop"></i>
+          </span>
+          <span class="menu-title">people_outline</span>
+          <i class="menu-arrow"></i>
+        </a>
+        <div class="collapse" id="ui-basic">
+          <ul class="nav flex-column sub-menu">
+            <li class="nav-item"> <a class="nav-link" routerLink="/welcome/user/list_user" *ngIf="Role=='admin'">Fournisseur</a></li>
+            <li class="nav-item"> <a class="nav-link" routerLink="/welcome/infoclient/list_client">Client</a></li>
+            <!-- <li class="nav-item"> <a class="nav-link" href="#">Typography</a></li> -->
+          </ul>
+        </div>
+      </li>
+      <li class="nav-item menu-items">
+        <a class="nav-link" routerLink="/welcome/info_categorier/list">
+          <span class="menu-icon">
+            <i class="mdi mdi-playlist-play"></i>
+          </span>
+          <span class="menu-title"> Categorie</span>
+        </a>
+      </li>
+      <!-- 'infoProduit',liste -->
+      <li class="nav-item menu-items">
+        <a class="nav-link" routerLink="/welcome/infoProduit/liste">
+          <span class="menu-icon">
+            <i class="mdi mdi-table-large"></i>
+          </span>
+          <span class="menu-title">Produits</span>
+        </a>
+      </li>
+      <!-- <li class="nav-item menu-items">
+        <a class="nav-link" href="#">
+          <span class="menu-icon">
+            <i class="mdi mdi-chart-bar"></i>
+          </span>
+          <span class="menu-title">Charts</span>
+        </a>
+      </li> -->
+      <!-- <li class="nav-item menu-items">
+        <a class="nav-link" href="welcome/facture/list/bon_achat">
+
+          <span class="menu-icon">
+            <i class="mdi mdi-contacts"></i>
+          </span>
+          <span class="menu-title" (Click)="bon_achat()">Bon Achat</span>
+        </a>
+      </li> -->
+      <li class="nav-item menu-items">
+        <a class="nav-link" href="welcome/facture/list/demande_prix">
+
+          <span class="menu-icon">
+            <i class="mdi mdi-contacts"></i>
+          </span>
+          <span class="menu-title" (click)="demande_prix()">Demande Prix</span>
+        </a>
+      </li>
+      <li class="nav-item menu-items" >
+        <!-- <a class="nav-link" routerLink="/welcome/facture/list/Devis"> -->
+        <a class="nav-link" href="welcome/facture/list/Devis" (click)="devis()">
+
+          <span class="menu-icon">
+            <i class="mdi mdi-contacts"></i>
+          </span>
+          <span class="menu-title" >Devis</span>
+        </a>
+      </li>
+      <li class="nav-item menu-items">
+        <a class="nav-link" href="welcome/facture/list/Bon_commandes">
+          <span class="menu-icon">
+            <i class="mdi mdi-contacts"></i>
+          </span>
+          <span class="menu-title" (click)="bon_commandes()">Bon commandes</span>
+        </a>
+      </li>
+      <li class="nav-item menu-items">
+        <a class="nav-link" href="welcome/facture/list/Bon_livraison">
+          <span class="menu-icon">
+            <i class="mdi mdi-contacts"></i>
+          </span>
+          <span class="menu-title" (click)="bon_livraison()">Bon livraison</span>
+        </a>
+      </li>
+      <li class="nav-item menu-items">
+        <a class="nav-link" href="welcome/facture/list/Avoir">
+          <span class="menu-icon">
+            <i class="mdi mdi-contacts"></i>
+          </span>
+          <span class="menu-title" (click)="avoire()">Avoir</span>
+        </a>
+      </li>
+      <li class="nav-item menu-items" *ngIf="Role=='admin'">
+        <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+          <span class="menu-icon">
+            <i class="mdi mdi-security"></i>
+          </span>
+          <span class="menu-title" routerLink="/welcome/reglement/listReglement" >Reg Fournisseur</span>
+         
+        </a>
+       
+      </li>
+ 
+      <li class="nav-item menu-items">
+        <a class="nav-link" routerLink="/welcome/reglement/listReglementClient">
+          <span class="menu-icon">
+            <i class="mdi mdi-file-document-box"></i>
+          </span>
+          <span class="menu-title"> Reg Client</span> 
+        </a>
+      </li>
+      <li class="nav-item menu-items">
+        <a class="nav-link" href="welcome/facture/list/facture">
+          <span class="menu-icon">
+            <i class="mdi mdi-file-document-box"></i>
+          </span>
+          <span class="menu-title" (click)="facture()"> Factures</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+<!-- </body> -->

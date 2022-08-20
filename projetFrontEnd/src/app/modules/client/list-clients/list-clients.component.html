@@ -1,0 +1,161 @@
+<br><br><br><br><br>
+<div class="col-12 grid-margin" >
+  <div class="card">
+    <div class="card-body">
+   
+      <div class="table-responsive">
+          <ul class="navbar-nav navbar-nav-right">
+              <li class="nav-item dropdown d-none d-lg-block">
+                <div class="add-items d-flex">
+               
+                  <input type="text" class="form-control todo-list-input" placeholder="chercher sur client.." [(ngModel)]="firstName" >
+                </div>
+                <a class="nav-link btn btn-success create-new-button" id="createbuttonDropdown" data-toggle="dropdown" aria-expanded="false" routerLink="/welcome/infoclient/ajoueterClient">ajouter client</a>
+               
+              </li>
+       
+            
+          
+            </ul>
+        <table class="table" id="my_table">
+          <thead>
+            <tr>
+             
+          
+              <th> Nom </th>
+              <th> ICE </th>
+              <th> Telephne de client </th>
+        
+              <th> Adress de client  </th>
+              
+              <th> Status </th>
+            </tr>
+          </thead>
+          <!-- <tbody >
+
+            <tr *ngFor="let data of produits" >
+              <td  >
+          <i *ngFor="let categorie of categories"><i *ngIf="categorie.id==data.id_categorier">{{categorie.Nom_categorie}}</i>  </i>  
+          </td>
+              <td>{{data.Nom_produit}}</td>
+              <td >{{data.reference}}</td>
+              <td  > 
+              <div *ngIf="data.deleted_at!=null" style="color: red; text-align: center;"><a href="welcome/infoProduit/liste" (click)="annulersupp(data.id)">annuler supprimer</a></div>
+             <div *ngIf="data.deleted_at==null">
+              <a class="remove mdi mdi-close-box" style="color: red;"   (click)="delet(data.id)" ></a><i class="mdi mdi-border-color" routerLink="/welcome/infoclient/update/" style="float: right;color:blue;" *ngIf="data.deleted_at==null"></i>
+   
+             </div></td>
+      
+          </tr>
+           
+          
+        
+          
+          </tbody> -->
+          <tbody>
+            <tr *ngFor="let clients of clients | filter:firstName" >
+    
+            <td *ngIf="clients.Nom_client!=undefined" 
+                
+                >{{clients.Nom_client}}</td>
+            <td *ngIf="clients.Nom_client==undefined" 
+                
+                ></td>
+            <td 
+                
+                >{{clients.ICE}}</td>
+                <td 
+                
+                >{{clients.tele_client}}</td>
+            <td 
+                
+                >{{clients.Adresse_client}}</td>
+          
+            <td 
+                
+                >
+                
+                <a class="remove mdi mdi-close-box" (click)="delet(clients.id)"></a><i class="mdi mdi-border-color" routerLink="/welcome/infoclient/update/{{clients.id}}"></i>
+            <!-- <button class="btn btn-success btn-rounded btn-fw" style="color: red;" (click)="imprimerfour(clients.id)">imprimer</button> -->
+            <img src="assets/iconPDF.png" width="2%" height="2%"  style="float: right;" (click)="imprimerfour(clients.id)">
+              
+              </td>
+        </tr>
+        </tbody>
+        </table>
+<button (click)="print()" class="btn btn-success btn-rounded btn-fw">print</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--  -->
+<!-- <div class="main-panel"> 
+<div class=" grid-margin stretch-card">
+    <div class="card">
+        
+      <div class="card-body">
+        <h4 class="card-title">List de client</h4>
+        <button class="btn btn-primary btn-rounded btn-fw" style="text-align: center;" routerLink="/welcome/infoclient/ajoueterClient">ajouter client</button>
+
+<br>
+        <div class="add-items d-flex">
+           
+          <input type="text" class="form-control todo-list-input" placeholder="chercher sur client.." [(ngModel)]="firstName" >
+        </div>
+          
+        <table style="border: 10px;background-color: rgb(238, 192, 192);width: 100%;border:2px;width: 100%; border-color: black; background-color: aliceblue;" >
+            <thead style="color: brown;">
+                <th style="border-top:1pt solid black;padding-right: 2px;
+                padding-left: 2px;
+                border-left:1pt solid black;">Nom</th>
+                <th style="border-top:1pt solid black;padding-right: 2px;
+                padding-left: 2px;
+                border-left:1pt solid black;" >ICE</th>
+
+                <th style="border-top:1pt solid black;padding-right: 2px;
+                padding-left: 2px;
+                border-left:1pt solid black;">Adress de client</th>
+                <th style="border-top:1pt solid black;padding-right: 2px;
+                padding-left: 2px;
+                border-left:1pt solid black;">Telephne de client </th>
+
+               <th style="border-top:1pt solid black;padding-right: 2px;
+               padding-left: 2px;
+               border-left:1pt solid black;">action</th>
+
+            </thead>
+          
+            <tbody>
+                <tr *ngFor="let clients of clients | filter:firstName" style="border-top:1pt solid black;padding-right: 2px;
+                    padding-left: 2px;
+                    border-left:1pt solid black;">
+                
+                <td *ngIf="clients.Nom_client!=undefined" style="border-top:1pt solid black;padding-right: 2px;
+                    padding-left: 2px;
+                    border-left:1pt solid black;">{{clients.Nom_client}}</td>
+                <td *ngIf="clients.Nom_client==undefined" style="border-top:1pt solid black;padding-right: 2px;
+                    padding-left: 2px;
+                    border-left:1pt solid black;"></td>
+                <td style="border-top:1pt solid black;padding-right: 2px;
+                    padding-left: 2px;
+                    border-left:1pt solid black;">{{clients.ICE}}</td>
+                <td style="border-top:1pt solid black;padding-right: 2px;
+                    padding-left: 2px;
+                    border-left:1pt solid black;">{{clients.Adresse_client}}</td>
+                <td style="border-top:1pt solid black;padding-right: 2px;
+                    padding-left: 2px;
+                    border-left:1pt solid black;">{{clients.tele_client}}</td>
+                <td style="border-top:1pt solid black;padding-right: 2px;
+                    padding-left: 2px;
+                    border-left:1pt solid black;"> <a class="remove mdi mdi-close-box" (click)="delet(clients.id)"></a><i class="mdi mdi-border-color" routerLink="/welcome/infoclient/update/{{clients.id}}"></i></td>
+            </tr>
+            </tbody>
+           </table>
+      
+      </div>
+    </div>
+  </div></div> -->

@@ -1,0 +1,48 @@
+<br><br>
+<div class="content" id="print-section"  ><div *ngIf="type==1"><app-test></app-test></div>
+
+
+</div>
+<div *ngIf="type==2" id="print-section1" class="mm" ><app-facture2></app-facture2></div>
+<br><br>
+<div >
+<div class="actions"  >
+    <!-- <button  type="button" class="btn btn-primary " (click)="openPDF()">
+     <i class="fa fa-print mx-1"   aria-hidden="true"></i>
+     Imprimer</button> -->
+     <!-- [useExistingCss]="true" -->
+     <button class="btn btn-success btn-rounded btn-fw" *ngIf="idUser!=null && type==2" printTitle="Print Title" printSectionId="print-section1" ngxPrint  styleSheetFile="assets/css/facture2.css" routerLink="/welcome/facture/list/facture" (click)="save()">
+      Print
+    </button>
+        <button class="btn btn-success btn-rounded btn-fw" *ngIf="idUser==null && type==2" printTitle="Print Title" printSectionId="print-section1" ngxPrint  styleSheetFile="assets/css/facture2.css" routerLink="/pro">
+       Print
+     </button>
+     <button class="btn btn-success btn-rounded btn-fw" *ngIf="idUser!=null && type==1" printTitle="Print Title" printSectionId="print-section" ngxPrint  styleSheetFile="assets/css/facture.css" routerLink="/welcome/facture/list/facture" (click)="save()">
+      Print
+    </button>
+        <button class="btn btn-success btn-rounded btn-fw" *ngIf="idUser==null && type==1" printTitle="Print Title" printSectionId="print-section" ngxPrint  styleSheetFile="assets/css/facture.css" routerLink="/pro" >
+       Print
+     </button>
+
+ </div>
+
+</div>
+
+
+<!-- <br><br><br><br><br> 
+<div  id="print-section">
+
+
+      
+        <app-test></app-test>
+
+
+    <h1>mourad</h1>
+    </div> 
+   -->
+ <!-- <button  
+ 
+        printTitle="MyTitle"  
+        printSectionId="print-section"  
+        ngxPrint>print</button> -->
+  

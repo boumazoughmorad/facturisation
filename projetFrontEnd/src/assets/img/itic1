@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>ITIC Solution - Votre meilleure solution informatique</title>
+	<meta name="description" content="Développement des applications web et mobile, création des sites web au MAROC, logiciel de gestion commercial, stock, logiciel des opticiens" />
+	<link rel="canonical" href="https://itic-solution.com/" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="ITIC Solution - Votre meilleure solution informatique" />
+	<meta property="og:description" content="Développement des applications web et mobile, création des sites web au MAROC, logiciel de gestion commercial, stock, logiciel des opticiens" />
+	<meta property="og:url" content="https://itic-solution.com/" />
+	<meta property="og:site_name" content="ITIC SOLUTION" />
+	<meta property="article:publisher" content="https://www.facebook.com/ITIC-Solution-111864644021070/" />
+	<meta property="article:modified_time" content="2022-06-06T18:11:11+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Durée de lecture estimée" />
+	<meta name="twitter:data1" content="8 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://itic-solution.com/#organization","name":"ITIC Solution","url":"https://itic-solution.com/","sameAs":["https://www.linkedin.com/company/70971883/","https://www.facebook.com/ITIC-Solution-111864644021070/"],"logo":{"@type":"ImageObject","inLanguage":"fr-FR","@id":"https://itic-solution.com/#/schema/logo/image/","url":"https://itic-solution.com/wp-content/uploads/2021/04/LOGO-SITE-COLOR.png","contentUrl":"https://itic-solution.com/wp-content/uploads/2021/04/LOGO-SITE-COLOR.png","width":320,"height":135,"caption":"ITIC Solution"},"image":{"@id":"https://itic-solution.com/#/schema/logo/image/"}},{"@type":"WebSite","@id":"https://itic-solution.com/#website","url":"https://itic-solution.com/","name":"ITIC SOLUTION","description":"INNOVATION , TECHNOLOGIE, SOLUTION INFORMATIQUE","publisher":{"@id":"https://itic-solution.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://itic-solution.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"fr-FR"},{"@type":"WebPage","@id":"https://itic-solution.com/#webpage","url":"https://itic-solution.com/","name":"ITIC Solution - Votre meilleure solution informatique","isPartOf":{"@id":"https://itic-solution.com/#website"},"about":{"@id":"https://itic-solution.com/#organization"},"datePublished":"2021-04-15T08:01:06+00:00","dateModified":"2022-06-06T18:11:11+00:00","description":"Développement des applications web et mobile, création des sites web au MAROC, logiciel de gestion commercial, stock, logiciel des opticiens","breadcrumb":{"@id":"https://itic-solution.com/#breadcrumb"},"inLanguage":"fr-FR","potentialAction":[{"@type":"ReadAction","target":["https://itic-solution.com/"]}]},{"@type":"BreadcrumbList","@id":"https://itic-solution.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil"}]}]}</script>
+	<meta name="google-site-verification" content="sVFoBqXXNDfvAtjpkCajBT0cZmUinJDHSDA7VvhR3KI" />
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="ITIC SOLUTION &raquo; Flux" href="https://itic-solution.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ITIC SOLUTION &raquo; Flux des commentaires" href="https://itic-solution.com/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/itic-solution.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://itic-solution.com/wp-includes/css/dist/block-library/style.min.css?ver=6.0' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<style id='extendify-gutenberg-patterns-and-templates-utilities-inline-css'>
+.ext-absolute{position:absolute!important}.ext-relative{position:relative!important}.ext-top-base{top:var(--wp--style--block-gap,1.75rem)!important}.ext-top-lg{top:var(--extendify--spacing--large,3rem)!important}.ext--top-base{top:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.ext--top-lg{top:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.ext-right-base{right:var(--wp--style--block-gap,1.75rem)!important}.ext-right-lg{right:var(--extendify--spacing--large,3rem)!important}.ext--right-base{right:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.ext--right-lg{right:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.ext-bottom-base{bottom:var(--wp--style--block-gap,1.75rem)!important}.ext-bottom-lg{bottom:var(--extendify--spacing--large,3rem)!important}.ext--bottom-base{bottom:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.ext--bottom-lg{bottom:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.ext-left-base{left:var(--wp--style--block-gap,1.75rem)!important}.ext-left-lg{left:var(--extendify--spacing--large,3rem)!important}.ext--left-base{left:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.ext--left-lg{left:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.ext-order-1{order:1!important}.ext-order-2{order:2!important}.ext-col-auto{grid-column:auto!important}.ext-col-span-1{grid-column:span 1/span 1!important}.ext-col-span-2{grid-column:span 2/span 2!important}.ext-col-span-3{grid-column:span 3/span 3!important}.ext-col-span-4{grid-column:span 4/span 4!important}.ext-col-span-5{grid-column:span 5/span 5!important}.ext-col-span-6{grid-column:span 6/span 6!important}.ext-col-span-7{grid-column:span 7/span 7!important}.ext-col-span-8{grid-column:span 8/span 8!important}.ext-col-span-9{grid-column:span 9/span 9!important}.ext-col-span-10{grid-column:span 10/span 10!important}.ext-col-span-11{grid-column:span 11/span 11!important}.ext-col-span-12{grid-column:span 12/span 12!important}.ext-col-span-full{grid-column:1/-1!important}.ext-col-start-1{grid-column-start:1!important}.ext-col-start-2{grid-column-start:2!important}.ext-col-start-3{grid-column-start:3!important}.ext-col-start-4{grid-column-start:4!important}.ext-col-start-5{grid-column-start:5!important}.ext-col-start-6{grid-column-start:6!important}.ext-col-start-7{grid-column-start:7!important}.ext-col-start-8{grid-column-start:8!important}.ext-col-start-9{grid-column-start:9!important}.ext-col-start-10{grid-column-start:10!important}.ext-col-start-11{grid-column-start:11!important}.ext-col-start-12{grid-column-start:12!important}.ext-col-start-13{grid-column-start:13!important}.ext-col-start-auto{grid-column-start:auto!important}.ext-col-end-1{grid-column-end:1!important}.ext-col-end-2{grid-column-end:2!important}.ext-col-end-3{grid-column-end:3!important}.ext-col-end-4{grid-column-end:4!important}.ext-col-end-5{grid-column-end:5!important}.ext-col-end-6{grid-column-end:6!important}.ext-col-end-7{grid-column-end:7!important}.ext-col-end-8{grid-column-end:8!important}.ext-col-end-9{grid-column-end:9!important}.ext-col-end-10{grid-column-end:10!important}.ext-col-end-11{grid-column-end:11!important}.ext-col-end-12{grid-column-end:12!important}.ext-col-end-13{grid-column-end:13!important}.ext-col-end-auto{grid-column-end:auto!important}.ext-row-auto{grid-row:auto!important}.ext-row-span-1{grid-row:span 1/span 1!important}.ext-row-span-2{grid-row:span 2/span 2!important}.ext-row-span-3{grid-row:span 3/span 3!important}.ext-row-span-4{grid-row:span 4/span 4!important}.ext-row-span-5{grid-row:span 5/span 5!important}.ext-row-span-6{grid-row:span 6/span 6!important}.ext-row-span-full{grid-row:1/-1!important}.ext-row-start-1{grid-row-start:1!important}.ext-row-start-2{grid-row-start:2!important}.ext-row-start-3{grid-row-start:3!important}.ext-row-start-4{grid-row-start:4!important}.ext-row-start-5{grid-row-start:5!important}.ext-row-start-6{grid-row-start:6!important}.ext-row-start-7{grid-row-start:7!important}.ext-row-start-auto{grid-row-start:auto!important}.ext-row-end-1{grid-row-end:1!important}.ext-row-end-2{grid-row-end:2!important}.ext-row-end-3{grid-row-end:3!important}.ext-row-end-4{grid-row-end:4!important}.ext-row-end-5{grid-row-end:5!important}.ext-row-end-6{grid-row-end:6!important}.ext-row-end-7{grid-row-end:7!important}.ext-row-end-auto{grid-row-end:auto!important}.ext-m-0:not([style*=margin]){margin:0!important}.ext-m-auto:not([style*=margin]){margin:auto!important}.ext-m-base:not([style*=margin]){margin:var(--wp--style--block-gap,1.75rem)!important}.ext-m-lg:not([style*=margin]){margin:var(--extendify--spacing--large,3rem)!important}.ext--m-base:not([style*=margin]){margin:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.ext--m-lg:not([style*=margin]){margin:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.ext-mx-0:not([style*=margin]){margin-left:0!important;margin-right:0!important}.ext-mx-auto:not([style*=margin]){margin-left:auto!important;margin-right:auto!important}.ext-mx-base:not([style*=margin]){margin-left:var(--wp--style--block-gap,1.75rem)!important;margin-right:var(--wp--style--block-gap,1.75rem)!important}.ext-mx-lg:not([style*=margin]){margin-left:var(--extendify--spacing--large,3rem)!important;margin-right:var(--extendify--spacing--large,3rem)!important}.ext--mx-base:not([style*=margin]){margin-left:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important;margin-right:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.ext--mx-lg:not([style*=margin]){margin-left:calc(var(--extendify--spacing--large, 3rem)*-1)!important;margin-right:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.ext-my-0:not([style*=margin]){margin-bottom:0!important;margin-top:0!important}.ext-my-auto:not([style*=margin]){margin-bottom:auto!important;margin-top:auto!important}.ext-my-base:not([style*=margin]){margin-bottom:var(--wp--style--block-gap,1.75rem)!important;margin-top:var(--wp--style--block-gap,1.75rem)!important}.ext-my-lg:not([style*=margin]){margin-bottom:var(--extendify--spacing--large,3rem)!important;margin-top:var(--extendify--spacing--large,3rem)!important}.ext--my-base:not([style*=margin]){margin-bottom:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important;margin-top:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.ext--my-lg:not([style*=margin]){margin-bottom:calc(var(--extendify--spacing--large, 3rem)*-1)!important;margin-top:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.ext-mt-0:not([style*=margin]){margin-top:0!important}.ext-mt-auto:not([style*=margin]){margin-top:auto!important}.ext-mt-base:not([style*=margin]){margin-top:var(--wp--style--block-gap,1.75rem)!important}.ext-mt-lg:not([style*=margin]){margin-top:var(--extendify--spacing--large,3rem)!important}.ext--mt-base:not([style*=margin]){margin-top:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.ext--mt-lg:not([style*=margin]){margin-top:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.ext-mr-0:not([style*=margin]){margin-right:0!important}.ext-mr-auto:not([style*=margin]){margin-right:auto!important}.ext-mr-base:not([style*=margin]){margin-right:var(--wp--style--block-gap,1.75rem)!important}.ext-mr-lg:not([style*=margin]){margin-right:var(--extendify--spacing--large,3rem)!important}.ext--mr-base:not([style*=margin]){margin-right:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.ext--mr-lg:not([style*=margin]){margin-right:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.ext-mb-0:not([style*=margin]){margin-bottom:0!important}.ext-mb-auto:not([style*=margin]){margin-bottom:auto!important}.ext-mb-base:not([style*=margin]){margin-bottom:var(--wp--style--block-gap,1.75rem)!important}.ext-mb-lg:not([style*=margin]){margin-bottom:var(--extendify--spacing--large,3rem)!important}.ext--mb-base:not([style*=margin]){margin-bottom:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.ext--mb-lg:not([style*=margin]){margin-bottom:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.ext-ml-0:not([style*=margin]){margin-left:0!important}.ext-ml-auto:not([style*=margin]){margin-left:auto!important}.ext-ml-base:not([style*=margin]){margin-left:var(--wp--style--block-gap,1.75rem)!important}.ext-ml-lg:not([style*=margin]){margin-left:var(--extendify--spacing--large,3rem)!important}.ext--ml-base:not([style*=margin]){margin-left:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.ext--ml-lg:not([style*=margin]){margin-left:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.ext-block{display:block!important}.ext-inline-block{display:inline-block!important}.ext-inline{display:inline!important}.ext-flex{display:flex!important}.ext-inline-flex{display:inline-flex!important}.ext-grid{display:grid!important}.ext-inline-grid{display:inline-grid!important}.ext-hidden{display:none!important}.ext-w-auto{width:auto!important}.ext-w-full{width:100%!important}.ext-max-w-full{max-width:100%!important}.ext-flex-1{flex:1 1 0%!important}.ext-flex-auto{flex:1 1 auto!important}.ext-flex-initial{flex:0 1 auto!important}.ext-flex-none{flex:none!important}.ext-flex-shrink-0{flex-shrink:0!important}.ext-flex-shrink{flex-shrink:1!important}.ext-flex-grow-0{flex-grow:0!important}.ext-flex-grow{flex-grow:1!important}.ext-list-none{list-style-type:none!important}.ext-grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))!important}.ext-grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))!important}.ext-grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))!important}.ext-grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))!important}.ext-grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))!important}.ext-grid-cols-6{grid-template-columns:repeat(6,minmax(0,1fr))!important}.ext-grid-cols-7{grid-template-columns:repeat(7,minmax(0,1fr))!important}.ext-grid-cols-8{grid-template-columns:repeat(8,minmax(0,1fr))!important}.ext-grid-cols-9{grid-template-columns:repeat(9,minmax(0,1fr))!important}.ext-grid-cols-10{grid-template-columns:repeat(10,minmax(0,1fr))!important}.ext-grid-cols-11{grid-template-columns:repeat(11,minmax(0,1fr))!important}.ext-grid-cols-12{grid-template-columns:repeat(12,minmax(0,1fr))!important}.ext-grid-cols-none{grid-template-columns:none!important}.ext-grid-rows-1{grid-template-rows:repeat(1,minmax(0,1fr))!important}.ext-grid-rows-2{grid-template-rows:repeat(2,minmax(0,1fr))!important}.ext-grid-rows-3{grid-template-rows:repeat(3,minmax(0,1fr))!important}.ext-grid-rows-4{grid-template-rows:repeat(4,minmax(0,1fr))!important}.ext-grid-rows-5{grid-template-rows:repeat(5,minmax(0,1fr))!important}.ext-grid-rows-6{grid-template-rows:repeat(6,minmax(0,1fr))!important}.ext-grid-rows-none{grid-template-rows:none!important}.ext-flex-row{flex-direction:row!important}.ext-flex-row-reverse{flex-direction:row-reverse!important}.ext-flex-col{flex-direction:column!important}.ext-flex-col-reverse{flex-direction:column-reverse!important}.ext-flex-wrap{flex-wrap:wrap!important}.ext-flex-wrap-reverse{flex-wrap:wrap-reverse!important}.ext-flex-nowrap{flex-wrap:nowrap!important}.ext-items-start{align-items:flex-start!important}.ext-items-end{align-items:flex-end!important}.ext-items-center{align-items:center!important}.ext-items-baseline{align-items:baseline!important}.ext-items-stretch{align-items:stretch!important}.ext-justify-start{justify-content:flex-start!important}.ext-justify-end{justify-content:flex-end!important}.ext-justify-center{justify-content:center!important}.ext-justify-between{justify-content:space-between!important}.ext-justify-around{justify-content:space-around!important}.ext-justify-evenly{justify-content:space-evenly!important}.ext-justify-items-start{justify-items:start!important}.ext-justify-items-end{justify-items:end!important}.ext-justify-items-center{justify-items:center!important}.ext-justify-items-stretch{justify-items:stretch!important}.ext-gap-0{gap:0!important}.ext-gap-base{gap:var(--wp--style--block-gap,1.75rem)!important}.ext-gap-lg{gap:var(--extendify--spacing--large,3rem)!important}.ext-gap-x-0{-moz-column-gap:0!important;column-gap:0!important}.ext-gap-x-base{-moz-column-gap:var(--wp--style--block-gap,1.75rem)!important;column-gap:var(--wp--style--block-gap,1.75rem)!important}.ext-gap-x-lg{-moz-column-gap:var(--extendify--spacing--large,3rem)!important;column-gap:var(--extendify--spacing--large,3rem)!important}.ext-gap-y-0{row-gap:0!important}.ext-gap-y-base{row-gap:var(--wp--style--block-gap,1.75rem)!important}.ext-gap-y-lg{row-gap:var(--extendify--spacing--large,3rem)!important}.ext-justify-self-auto{justify-self:auto!important}.ext-justify-self-start{justify-self:start!important}.ext-justify-self-end{justify-self:end!important}.ext-justify-self-center{justify-self:center!important}.ext-justify-self-stretch{justify-self:stretch!important}.ext-rounded-none{border-radius:0!important}.ext-rounded-full{border-radius:9999px!important}.ext-rounded-t-none{border-top-left-radius:0!important;border-top-right-radius:0!important}.ext-rounded-t-full{border-top-left-radius:9999px!important;border-top-right-radius:9999px!important}.ext-rounded-r-none{border-bottom-right-radius:0!important;border-top-right-radius:0!important}.ext-rounded-r-full{border-bottom-right-radius:9999px!important;border-top-right-radius:9999px!important}.ext-rounded-b-none{border-bottom-left-radius:0!important;border-bottom-right-radius:0!important}.ext-rounded-b-full{border-bottom-left-radius:9999px!important;border-bottom-right-radius:9999px!important}.ext-rounded-l-none{border-bottom-left-radius:0!important;border-top-left-radius:0!important}.ext-rounded-l-full{border-bottom-left-radius:9999px!important;border-top-left-radius:9999px!important}.ext-rounded-tl-none{border-top-left-radius:0!important}.ext-rounded-tl-full{border-top-left-radius:9999px!important}.ext-rounded-tr-none{border-top-right-radius:0!important}.ext-rounded-tr-full{border-top-right-radius:9999px!important}.ext-rounded-br-none{border-bottom-right-radius:0!important}.ext-rounded-br-full{border-bottom-right-radius:9999px!important}.ext-rounded-bl-none{border-bottom-left-radius:0!important}.ext-rounded-bl-full{border-bottom-left-radius:9999px!important}.ext-border-0{border-width:0!important}.ext-border-t-0{border-top-width:0!important}.ext-border-r-0{border-right-width:0!important}.ext-border-b-0{border-bottom-width:0!important}.ext-border-l-0{border-left-width:0!important}.ext-p-0:not([style*=padding]){padding:0!important}.ext-p-base:not([style*=padding]){padding:var(--wp--style--block-gap,1.75rem)!important}.ext-p-lg:not([style*=padding]){padding:var(--extendify--spacing--large,3rem)!important}.ext-px-0:not([style*=padding]){padding-left:0!important;padding-right:0!important}.ext-px-base:not([style*=padding]){padding-left:var(--wp--style--block-gap,1.75rem)!important;padding-right:var(--wp--style--block-gap,1.75rem)!important}.ext-px-lg:not([style*=padding]){padding-left:var(--extendify--spacing--large,3rem)!important;padding-right:var(--extendify--spacing--large,3rem)!important}.ext-py-0:not([style*=padding]){padding-bottom:0!important;padding-top:0!important}.ext-py-base:not([style*=padding]){padding-bottom:var(--wp--style--block-gap,1.75rem)!important;padding-top:var(--wp--style--block-gap,1.75rem)!important}.ext-py-lg:not([style*=padding]){padding-bottom:var(--extendify--spacing--large,3rem)!important;padding-top:var(--extendify--spacing--large,3rem)!important}.ext-pt-0:not([style*=padding]){padding-top:0!important}.ext-pt-base:not([style*=padding]){padding-top:var(--wp--style--block-gap,1.75rem)!important}.ext-pt-lg:not([style*=padding]){padding-top:var(--extendify--spacing--large,3rem)!important}.ext-pr-0:not([style*=padding]){padding-right:0!important}.ext-pr-base:not([style*=padding]){padding-right:var(--wp--style--block-gap,1.75rem)!important}.ext-pr-lg:not([style*=padding]){padding-right:var(--extendify--spacing--large,3rem)!important}.ext-pb-0:not([style*=padding]){padding-bottom:0!important}.ext-pb-base:not([style*=padding]){padding-bottom:var(--wp--style--block-gap,1.75rem)!important}.ext-pb-lg:not([style*=padding]){padding-bottom:var(--extendify--spacing--large,3rem)!important}.ext-pl-0:not([style*=padding]){padding-left:0!important}.ext-pl-base:not([style*=padding]){padding-left:var(--wp--style--block-gap,1.75rem)!important}.ext-pl-lg:not([style*=padding]){padding-left:var(--extendify--spacing--large,3rem)!important}.ext-text-left{text-align:left!important}.ext-text-center{text-align:center!important}.ext-text-right{text-align:right!important}.ext-leading-none{line-height:1!important}.ext-leading-tight{line-height:1.25!important}.ext-leading-snug{line-height:1.375!important}.ext-leading-normal{line-height:1.5!important}.ext-leading-relaxed{line-height:1.625!important}.ext-leading-loose{line-height:2!important}.clip-path--rhombus img{-webkit-clip-path:polygon(15% 6%,80% 29%,84% 93%,23% 69%);clip-path:polygon(15% 6%,80% 29%,84% 93%,23% 69%)}.clip-path--diamond img{-webkit-clip-path:polygon(5% 29%,60% 2%,91% 64%,36% 89%);clip-path:polygon(5% 29%,60% 2%,91% 64%,36% 89%)}.clip-path--rhombus-alt img{-webkit-clip-path:polygon(14% 9%,85% 24%,91% 89%,19% 76%);clip-path:polygon(14% 9%,85% 24%,91% 89%,19% 76%)}.wp-block-columns[class*=fullwidth-cols]{margin-bottom:unset}.wp-block-column.editor\:pointer-events-none{margin-bottom:0!important;margin-top:0!important}.is-root-container.block-editor-block-list__layout>[data-align=full]:not(:first-of-type)>.wp-block-column.editor\:pointer-events-none,.is-root-container.block-editor-block-list__layout>[data-align=wide]>.wp-block-column.editor\:pointer-events-none{margin-top:calc(var(--wp--style--block-gap, 28px)*-1)!important}.ext .wp-block-columns .wp-block-column[style*=padding]{padding-left:0!important;padding-right:0!important}.ext .wp-block-columns+.wp-block-columns:not([class*=mt-]):not([class*=my-]):not([style*=margin]){margin-top:0!important}[class*=fullwidth-cols] .wp-block-column:first-child,[class*=fullwidth-cols] .wp-block-group:first-child{margin-top:0}[class*=fullwidth-cols] .wp-block-column:last-child,[class*=fullwidth-cols] .wp-block-group:last-child{margin-bottom:0}[class*=fullwidth-cols] .wp-block-column:first-child>*,[class*=fullwidth-cols] .wp-block-column>:first-child{margin-top:0}.ext .is-not-stacked-on-mobile .wp-block-column,[class*=fullwidth-cols] .wp-block-column>:last-child{margin-bottom:0}.wp-block-columns[class*=fullwidth-cols]:not(.is-not-stacked-on-mobile)>.wp-block-column:not(:last-child){margin-bottom:var(--wp--style--block-gap,1.75rem)}@media (min-width:782px){.wp-block-columns[class*=fullwidth-cols]:not(.is-not-stacked-on-mobile)>.wp-block-column:not(:last-child){margin-bottom:0}}.wp-block-columns[class*=fullwidth-cols].is-not-stacked-on-mobile>.wp-block-column{margin-bottom:0!important}@media (min-width:600px) and (max-width:781px){.wp-block-columns[class*=fullwidth-cols]:not(.is-not-stacked-on-mobile)>.wp-block-column:nth-child(2n){margin-left:var(--wp--style--block-gap,2em)}}@media (max-width:781px){.tablet\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile){flex-wrap:wrap}.tablet\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column,.tablet\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column:not([style*=margin]){margin-left:0!important}.tablet\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (max-width:1079px){.desktop\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile){flex-wrap:wrap}.desktop\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column,.desktop\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column:not([style*=margin]){margin-left:0!important}.desktop\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}.desktop\:fullwidth-cols.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column:not(:last-child){margin-bottom:var(--wp--style--block-gap,1.75rem)!important}}.direction-rtl{direction:rtl}.direction-ltr{direction:ltr}.is-style-inline-list{padding-left:0!important}.is-style-inline-list li{list-style-type:none!important}@media (min-width:782px){.is-style-inline-list li{display:inline!important;margin-right:var(--wp--style--block-gap,1.75rem)!important}}@media (min-width:782px){.is-style-inline-list li:first-child{margin-left:0!important}}@media (min-width:782px){.is-style-inline-list li:last-child{margin-right:0!important}}.bring-to-front{position:relative;z-index:10}.text-stroke{-webkit-text-stroke-color:var(--wp--preset--color--background)}.text-stroke,.text-stroke--primary{-webkit-text-stroke-width:var(
+        --wp--custom--typography--text-stroke-width,2px
+    )}.text-stroke--primary{-webkit-text-stroke-color:var(--wp--preset--color--primary)}.text-stroke--secondary{-webkit-text-stroke-width:var(
+        --wp--custom--typography--text-stroke-width,2px
+    );-webkit-text-stroke-color:var(--wp--preset--color--secondary)}.editor\:no-caption .block-editor-rich-text__editable{display:none!important}.editor\:no-inserter .wp-block-column:not(.is-selected)>.block-list-appender,.editor\:no-inserter .wp-block-cover__inner-container>.block-list-appender,.editor\:no-inserter .wp-block-group__inner-container>.block-list-appender,.editor\:no-inserter>.block-list-appender{display:none}.editor\:no-resize .components-resizable-box__handle,.editor\:no-resize .components-resizable-box__handle:after,.editor\:no-resize .components-resizable-box__side-handle:before{display:none;pointer-events:none}.editor\:no-resize .components-resizable-box__container{display:block}.editor\:pointer-events-none{pointer-events:none}.is-style-angled{justify-content:flex-end}.ext .is-style-angled>[class*=_inner-container],.is-style-angled{align-items:center}.is-style-angled .wp-block-cover__image-background,.is-style-angled .wp-block-cover__video-background{-webkit-clip-path:polygon(0 0,30% 0,50% 100%,0 100%);clip-path:polygon(0 0,30% 0,50% 100%,0 100%);z-index:1}@media (min-width:782px){.is-style-angled .wp-block-cover__image-background,.is-style-angled .wp-block-cover__video-background{-webkit-clip-path:polygon(0 0,55% 0,65% 100%,0 100%);clip-path:polygon(0 0,55% 0,65% 100%,0 100%)}}.has-foreground-color{color:var(--wp--preset--color--foreground,#000)!important}.has-foreground-background-color{background-color:var(--wp--preset--color--foreground,#000)!important}.has-background-color{color:var(--wp--preset--color--background,#fff)!important}.has-background-background-color{background-color:var(--wp--preset--color--background,#fff)!important}.has-primary-color{color:var(--wp--preset--color--primary,#4b5563)!important}.has-primary-background-color{background-color:var(--wp--preset--color--primary,#4b5563)!important}.has-secondary-color{color:var(--wp--preset--color--secondary,#9ca3af)!important}.has-secondary-background-color{background-color:var(--wp--preset--color--secondary,#9ca3af)!important}.ext.has-text-color h1,.ext.has-text-color h2,.ext.has-text-color h3,.ext.has-text-color h4,.ext.has-text-color h5,.ext.has-text-color h6,.ext.has-text-color p{color:currentColor}.has-white-color{color:var(--wp--preset--color--white,#fff)!important}.has-black-color{color:var(--wp--preset--color--black,#000)!important}.has-ext-foreground-background-color{background-color:var(
+        --wp--preset--color--foreground,var(--wp--preset--color--black,#000)
+    )!important}.has-ext-primary-background-color{background-color:var(
+        --wp--preset--color--primary,var(--wp--preset--color--cyan-bluish-gray,#000)
+    )!important}.wp-block-button__link.has-black-background-color{border-color:var(--wp--preset--color--black,#000)}.wp-block-button__link.has-white-background-color{border-color:var(--wp--preset--color--white,#fff)}.has-ext-small-font-size{font-size:var(--wp--preset--font-size--ext-small)!important}.has-ext-medium-font-size{font-size:var(--wp--preset--font-size--ext-medium)!important}.has-ext-large-font-size{font-size:var(--wp--preset--font-size--ext-large)!important;line-height:1.2}.has-ext-x-large-font-size{font-size:var(--wp--preset--font-size--ext-x-large)!important;line-height:1}.has-ext-xx-large-font-size{font-size:var(--wp--preset--font-size--ext-xx-large)!important;line-height:1}.has-ext-x-large-font-size:not([style*=line-height]),.has-ext-xx-large-font-size:not([style*=line-height]){line-height:1.1}.ext .wp-block-group>*{margin-bottom:0;margin-top:0}.ext .wp-block-group>*+*{margin-bottom:0}.ext .wp-block-group>*+*,.ext h2{margin-top:var(--wp--style--block-gap,1.75rem)}.ext h2{margin-bottom:var(--wp--style--block-gap,1.75rem)}.has-ext-x-large-font-size+h3,.has-ext-x-large-font-size+p{margin-top:.5rem}.ext .wp-block-buttons>.wp-block-button.wp-block-button__width-25{min-width:12rem;width:calc(25% - var(--wp--style--block-gap, .5em)*.75)}.ext .ext-grid>[class*=_inner-container]{display:grid}.ext>[class*=_inner-container]>.ext-grid:not([class*=columns]),.ext>[class*=_inner-container]>.wp-block>.ext-grid:not([class*=columns]){display:initial!important}.ext .ext-grid-cols-1>[class*=_inner-container]{grid-template-columns:repeat(1,minmax(0,1fr))!important}.ext .ext-grid-cols-2>[class*=_inner-container]{grid-template-columns:repeat(2,minmax(0,1fr))!important}.ext .ext-grid-cols-3>[class*=_inner-container]{grid-template-columns:repeat(3,minmax(0,1fr))!important}.ext .ext-grid-cols-4>[class*=_inner-container]{grid-template-columns:repeat(4,minmax(0,1fr))!important}.ext .ext-grid-cols-5>[class*=_inner-container]{grid-template-columns:repeat(5,minmax(0,1fr))!important}.ext .ext-grid-cols-6>[class*=_inner-container]{grid-template-columns:repeat(6,minmax(0,1fr))!important}.ext .ext-grid-cols-7>[class*=_inner-container]{grid-template-columns:repeat(7,minmax(0,1fr))!important}.ext .ext-grid-cols-8>[class*=_inner-container]{grid-template-columns:repeat(8,minmax(0,1fr))!important}.ext .ext-grid-cols-9>[class*=_inner-container]{grid-template-columns:repeat(9,minmax(0,1fr))!important}.ext .ext-grid-cols-10>[class*=_inner-container]{grid-template-columns:repeat(10,minmax(0,1fr))!important}.ext .ext-grid-cols-11>[class*=_inner-container]{grid-template-columns:repeat(11,minmax(0,1fr))!important}.ext .ext-grid-cols-12>[class*=_inner-container]{grid-template-columns:repeat(12,minmax(0,1fr))!important}.ext .ext-grid-cols-13>[class*=_inner-container]{grid-template-columns:repeat(13,minmax(0,1fr))!important}.ext .ext-grid-cols-none>[class*=_inner-container]{grid-template-columns:none!important}.ext .ext-grid-rows-1>[class*=_inner-container]{grid-template-rows:repeat(1,minmax(0,1fr))!important}.ext .ext-grid-rows-2>[class*=_inner-container]{grid-template-rows:repeat(2,minmax(0,1fr))!important}.ext .ext-grid-rows-3>[class*=_inner-container]{grid-template-rows:repeat(3,minmax(0,1fr))!important}.ext .ext-grid-rows-4>[class*=_inner-container]{grid-template-rows:repeat(4,minmax(0,1fr))!important}.ext .ext-grid-rows-5>[class*=_inner-container]{grid-template-rows:repeat(5,minmax(0,1fr))!important}.ext .ext-grid-rows-6>[class*=_inner-container]{grid-template-rows:repeat(6,minmax(0,1fr))!important}.ext .ext-grid-rows-none>[class*=_inner-container]{grid-template-rows:none!important}.ext .ext-items-start>[class*=_inner-container]{align-items:flex-start!important}.ext .ext-items-end>[class*=_inner-container]{align-items:flex-end!important}.ext .ext-items-center>[class*=_inner-container]{align-items:center!important}.ext .ext-items-baseline>[class*=_inner-container]{align-items:baseline!important}.ext .ext-items-stretch>[class*=_inner-container]{align-items:stretch!important}.ext.wp-block-group>:last-child{margin-bottom:0}.ext .wp-block-group__inner-container{padding:0!important}.ext.has-background{padding-left:var(--wp--style--block-gap,1.75rem);padding-right:var(--wp--style--block-gap,1.75rem)}.ext [class*=inner-container]>.alignwide [class*=inner-container],.ext [class*=inner-container]>[data-align=wide] [class*=inner-container]{max-width:var(--responsive--alignwide-width,120rem)}.ext [class*=inner-container]>.alignwide [class*=inner-container]>*,.ext [class*=inner-container]>[data-align=wide] [class*=inner-container]>*{max-width:100%!important}.ext .wp-block-image{position:relative;text-align:center}.ext .wp-block-image img{display:inline-block;vertical-align:middle}body{--extendify--spacing--large:var(
+        --wp--custom--spacing--large,clamp(2em,8vw,8em)
+    );--wp--preset--font-size--ext-small:1rem;--wp--preset--font-size--ext-medium:1.125rem;--wp--preset--font-size--ext-large:clamp(1.65rem,3.5vw,2.15rem);--wp--preset--font-size--ext-x-large:clamp(3rem,6vw,4.75rem);--wp--preset--font-size--ext-xx-large:clamp(3.25rem,7.5vw,5.75rem);--wp--preset--color--black:#000;--wp--preset--color--white:#fff}.ext *{box-sizing:border-box}.block-editor-block-preview__content-iframe .ext [data-type="core/spacer"] .components-resizable-box__container{background:transparent!important}.block-editor-block-preview__content-iframe .ext [data-type="core/spacer"] .block-library-spacer__resize-container:before{display:none!important}.ext .wp-block-group__inner-container figure.wp-block-gallery.alignfull{margin-bottom:unset;margin-top:unset}.ext .alignwide{margin-left:auto!important;margin-right:auto!important}.is-root-container.block-editor-block-list__layout>[data-align=full]:not(:first-of-type)>.ext-my-0,.is-root-container.block-editor-block-list__layout>[data-align=wide]>.ext-my-0:not([style*=margin]){margin-top:calc(var(--wp--style--block-gap, 28px)*-1)!important}.block-editor-block-preview__content-iframe .preview\:min-h-50{min-height:50vw!important}.block-editor-block-preview__content-iframe .preview\:min-h-60{min-height:60vw!important}.block-editor-block-preview__content-iframe .preview\:min-h-70{min-height:70vw!important}.block-editor-block-preview__content-iframe .preview\:min-h-80{min-height:80vw!important}.block-editor-block-preview__content-iframe .preview\:min-h-100{min-height:100vw!important}.ext-mr-0.alignfull:not([style*=margin]):not([style*=margin]){margin-right:0!important}.ext-ml-0:not([style*=margin]):not([style*=margin]){margin-left:0!important}.is-root-container .wp-block[data-align=full]>.ext-mx-0:not([style*=margin]):not([style*=margin]){margin-left:calc(var(--wp--custom--spacing--outer, 0)*1)!important;margin-right:calc(var(--wp--custom--spacing--outer, 0)*1)!important;overflow:hidden;width:unset}@media (min-width:782px){.tablet\:ext-absolute{position:absolute!important}.tablet\:ext-relative{position:relative!important}.tablet\:ext-top-base{top:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-top-lg{top:var(--extendify--spacing--large,3rem)!important}.tablet\:ext--top-base{top:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.tablet\:ext--top-lg{top:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.tablet\:ext-right-base{right:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-right-lg{right:var(--extendify--spacing--large,3rem)!important}.tablet\:ext--right-base{right:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.tablet\:ext--right-lg{right:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.tablet\:ext-bottom-base{bottom:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-bottom-lg{bottom:var(--extendify--spacing--large,3rem)!important}.tablet\:ext--bottom-base{bottom:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.tablet\:ext--bottom-lg{bottom:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.tablet\:ext-left-base{left:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-left-lg{left:var(--extendify--spacing--large,3rem)!important}.tablet\:ext--left-base{left:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.tablet\:ext--left-lg{left:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.tablet\:ext-order-1{order:1!important}.tablet\:ext-order-2{order:2!important}.tablet\:ext-m-0:not([style*=margin]){margin:0!important}.tablet\:ext-m-auto:not([style*=margin]){margin:auto!important}.tablet\:ext-m-base:not([style*=margin]){margin:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-m-lg:not([style*=margin]){margin:var(--extendify--spacing--large,3rem)!important}.tablet\:ext--m-base:not([style*=margin]){margin:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.tablet\:ext--m-lg:not([style*=margin]){margin:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.tablet\:ext-mx-0:not([style*=margin]){margin-left:0!important;margin-right:0!important}.tablet\:ext-mx-auto:not([style*=margin]){margin-left:auto!important;margin-right:auto!important}.tablet\:ext-mx-base:not([style*=margin]){margin-left:var(--wp--style--block-gap,1.75rem)!important;margin-right:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-mx-lg:not([style*=margin]){margin-left:var(--extendify--spacing--large,3rem)!important;margin-right:var(--extendify--spacing--large,3rem)!important}.tablet\:ext--mx-base:not([style*=margin]){margin-left:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important;margin-right:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.tablet\:ext--mx-lg:not([style*=margin]){margin-left:calc(var(--extendify--spacing--large, 3rem)*-1)!important;margin-right:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.tablet\:ext-my-0:not([style*=margin]){margin-bottom:0!important;margin-top:0!important}.tablet\:ext-my-auto:not([style*=margin]){margin-bottom:auto!important;margin-top:auto!important}.tablet\:ext-my-base:not([style*=margin]){margin-bottom:var(--wp--style--block-gap,1.75rem)!important;margin-top:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-my-lg:not([style*=margin]){margin-bottom:var(--extendify--spacing--large,3rem)!important;margin-top:var(--extendify--spacing--large,3rem)!important}.tablet\:ext--my-base:not([style*=margin]){margin-bottom:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important;margin-top:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.tablet\:ext--my-lg:not([style*=margin]){margin-bottom:calc(var(--extendify--spacing--large, 3rem)*-1)!important;margin-top:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.tablet\:ext-mt-0:not([style*=margin]){margin-top:0!important}.tablet\:ext-mt-auto:not([style*=margin]){margin-top:auto!important}.tablet\:ext-mt-base:not([style*=margin]){margin-top:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-mt-lg:not([style*=margin]){margin-top:var(--extendify--spacing--large,3rem)!important}.tablet\:ext--mt-base:not([style*=margin]){margin-top:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.tablet\:ext--mt-lg:not([style*=margin]){margin-top:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.tablet\:ext-mr-0:not([style*=margin]){margin-right:0!important}.tablet\:ext-mr-auto:not([style*=margin]){margin-right:auto!important}.tablet\:ext-mr-base:not([style*=margin]){margin-right:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-mr-lg:not([style*=margin]){margin-right:var(--extendify--spacing--large,3rem)!important}.tablet\:ext--mr-base:not([style*=margin]){margin-right:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.tablet\:ext--mr-lg:not([style*=margin]){margin-right:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.tablet\:ext-mb-0:not([style*=margin]){margin-bottom:0!important}.tablet\:ext-mb-auto:not([style*=margin]){margin-bottom:auto!important}.tablet\:ext-mb-base:not([style*=margin]){margin-bottom:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-mb-lg:not([style*=margin]){margin-bottom:var(--extendify--spacing--large,3rem)!important}.tablet\:ext--mb-base:not([style*=margin]){margin-bottom:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.tablet\:ext--mb-lg:not([style*=margin]){margin-bottom:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.tablet\:ext-ml-0:not([style*=margin]){margin-left:0!important}.tablet\:ext-ml-auto:not([style*=margin]){margin-left:auto!important}.tablet\:ext-ml-base:not([style*=margin]){margin-left:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-ml-lg:not([style*=margin]){margin-left:var(--extendify--spacing--large,3rem)!important}.tablet\:ext--ml-base:not([style*=margin]){margin-left:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.tablet\:ext--ml-lg:not([style*=margin]){margin-left:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.tablet\:ext-block{display:block!important}.tablet\:ext-inline-block{display:inline-block!important}.tablet\:ext-inline{display:inline!important}.tablet\:ext-flex{display:flex!important}.tablet\:ext-inline-flex{display:inline-flex!important}.tablet\:ext-grid{display:grid!important}.tablet\:ext-inline-grid{display:inline-grid!important}.tablet\:ext-hidden{display:none!important}.tablet\:ext-w-auto{width:auto!important}.tablet\:ext-w-full{width:100%!important}.tablet\:ext-max-w-full{max-width:100%!important}.tablet\:ext-flex-1{flex:1 1 0%!important}.tablet\:ext-flex-auto{flex:1 1 auto!important}.tablet\:ext-flex-initial{flex:0 1 auto!important}.tablet\:ext-flex-none{flex:none!important}.tablet\:ext-flex-shrink-0{flex-shrink:0!important}.tablet\:ext-flex-shrink{flex-shrink:1!important}.tablet\:ext-flex-grow-0{flex-grow:0!important}.tablet\:ext-flex-grow{flex-grow:1!important}.tablet\:ext-list-none{list-style-type:none!important}.tablet\:ext-grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))!important}.tablet\:ext-grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))!important}.tablet\:ext-grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))!important}.tablet\:ext-grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))!important}.tablet\:ext-grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))!important}.tablet\:ext-grid-cols-6{grid-template-columns:repeat(6,minmax(0,1fr))!important}.tablet\:ext-grid-cols-7{grid-template-columns:repeat(7,minmax(0,1fr))!important}.tablet\:ext-grid-cols-8{grid-template-columns:repeat(8,minmax(0,1fr))!important}.tablet\:ext-grid-cols-9{grid-template-columns:repeat(9,minmax(0,1fr))!important}.tablet\:ext-grid-cols-10{grid-template-columns:repeat(10,minmax(0,1fr))!important}.tablet\:ext-grid-cols-11{grid-template-columns:repeat(11,minmax(0,1fr))!important}.tablet\:ext-grid-cols-12{grid-template-columns:repeat(12,minmax(0,1fr))!important}.tablet\:ext-grid-cols-none{grid-template-columns:none!important}.tablet\:ext-flex-row{flex-direction:row!important}.tablet\:ext-flex-row-reverse{flex-direction:row-reverse!important}.tablet\:ext-flex-col{flex-direction:column!important}.tablet\:ext-flex-col-reverse{flex-direction:column-reverse!important}.tablet\:ext-flex-wrap{flex-wrap:wrap!important}.tablet\:ext-flex-wrap-reverse{flex-wrap:wrap-reverse!important}.tablet\:ext-flex-nowrap{flex-wrap:nowrap!important}.tablet\:ext-items-start{align-items:flex-start!important}.tablet\:ext-items-end{align-items:flex-end!important}.tablet\:ext-items-center{align-items:center!important}.tablet\:ext-items-baseline{align-items:baseline!important}.tablet\:ext-items-stretch{align-items:stretch!important}.tablet\:ext-justify-start{justify-content:flex-start!important}.tablet\:ext-justify-end{justify-content:flex-end!important}.tablet\:ext-justify-center{justify-content:center!important}.tablet\:ext-justify-between{justify-content:space-between!important}.tablet\:ext-justify-around{justify-content:space-around!important}.tablet\:ext-justify-evenly{justify-content:space-evenly!important}.tablet\:ext-justify-items-start{justify-items:start!important}.tablet\:ext-justify-items-end{justify-items:end!important}.tablet\:ext-justify-items-center{justify-items:center!important}.tablet\:ext-justify-items-stretch{justify-items:stretch!important}.tablet\:ext-justify-self-auto{justify-self:auto!important}.tablet\:ext-justify-self-start{justify-self:start!important}.tablet\:ext-justify-self-end{justify-self:end!important}.tablet\:ext-justify-self-center{justify-self:center!important}.tablet\:ext-justify-self-stretch{justify-self:stretch!important}.tablet\:ext-p-0:not([style*=padding]){padding:0!important}.tablet\:ext-p-base:not([style*=padding]){padding:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-p-lg:not([style*=padding]){padding:var(--extendify--spacing--large,3rem)!important}.tablet\:ext-px-0:not([style*=padding]){padding-left:0!important;padding-right:0!important}.tablet\:ext-px-base:not([style*=padding]){padding-left:var(--wp--style--block-gap,1.75rem)!important;padding-right:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-px-lg:not([style*=padding]){padding-left:var(--extendify--spacing--large,3rem)!important;padding-right:var(--extendify--spacing--large,3rem)!important}.tablet\:ext-py-0:not([style*=padding]){padding-bottom:0!important;padding-top:0!important}.tablet\:ext-py-base:not([style*=padding]){padding-bottom:var(--wp--style--block-gap,1.75rem)!important;padding-top:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-py-lg:not([style*=padding]){padding-bottom:var(--extendify--spacing--large,3rem)!important;padding-top:var(--extendify--spacing--large,3rem)!important}.tablet\:ext-pt-0:not([style*=padding]){padding-top:0!important}.tablet\:ext-pt-base:not([style*=padding]){padding-top:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-pt-lg:not([style*=padding]){padding-top:var(--extendify--spacing--large,3rem)!important}.tablet\:ext-pr-0:not([style*=padding]){padding-right:0!important}.tablet\:ext-pr-base:not([style*=padding]){padding-right:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-pr-lg:not([style*=padding]){padding-right:var(--extendify--spacing--large,3rem)!important}.tablet\:ext-pb-0:not([style*=padding]){padding-bottom:0!important}.tablet\:ext-pb-base:not([style*=padding]){padding-bottom:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-pb-lg:not([style*=padding]){padding-bottom:var(--extendify--spacing--large,3rem)!important}.tablet\:ext-pl-0:not([style*=padding]){padding-left:0!important}.tablet\:ext-pl-base:not([style*=padding]){padding-left:var(--wp--style--block-gap,1.75rem)!important}.tablet\:ext-pl-lg:not([style*=padding]){padding-left:var(--extendify--spacing--large,3rem)!important}.tablet\:ext-text-left{text-align:left!important}.tablet\:ext-text-center{text-align:center!important}.tablet\:ext-text-right{text-align:right!important}}@media (min-width:1080px){.desktop\:ext-absolute{position:absolute!important}.desktop\:ext-relative{position:relative!important}.desktop\:ext-top-base{top:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-top-lg{top:var(--extendify--spacing--large,3rem)!important}.desktop\:ext--top-base{top:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.desktop\:ext--top-lg{top:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.desktop\:ext-right-base{right:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-right-lg{right:var(--extendify--spacing--large,3rem)!important}.desktop\:ext--right-base{right:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.desktop\:ext--right-lg{right:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.desktop\:ext-bottom-base{bottom:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-bottom-lg{bottom:var(--extendify--spacing--large,3rem)!important}.desktop\:ext--bottom-base{bottom:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.desktop\:ext--bottom-lg{bottom:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.desktop\:ext-left-base{left:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-left-lg{left:var(--extendify--spacing--large,3rem)!important}.desktop\:ext--left-base{left:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.desktop\:ext--left-lg{left:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.desktop\:ext-order-1{order:1!important}.desktop\:ext-order-2{order:2!important}.desktop\:ext-m-0:not([style*=margin]){margin:0!important}.desktop\:ext-m-auto:not([style*=margin]){margin:auto!important}.desktop\:ext-m-base:not([style*=margin]){margin:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-m-lg:not([style*=margin]){margin:var(--extendify--spacing--large,3rem)!important}.desktop\:ext--m-base:not([style*=margin]){margin:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.desktop\:ext--m-lg:not([style*=margin]){margin:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.desktop\:ext-mx-0:not([style*=margin]){margin-left:0!important;margin-right:0!important}.desktop\:ext-mx-auto:not([style*=margin]){margin-left:auto!important;margin-right:auto!important}.desktop\:ext-mx-base:not([style*=margin]){margin-left:var(--wp--style--block-gap,1.75rem)!important;margin-right:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-mx-lg:not([style*=margin]){margin-left:var(--extendify--spacing--large,3rem)!important;margin-right:var(--extendify--spacing--large,3rem)!important}.desktop\:ext--mx-base:not([style*=margin]){margin-left:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important;margin-right:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.desktop\:ext--mx-lg:not([style*=margin]){margin-left:calc(var(--extendify--spacing--large, 3rem)*-1)!important;margin-right:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.desktop\:ext-my-0:not([style*=margin]){margin-bottom:0!important;margin-top:0!important}.desktop\:ext-my-auto:not([style*=margin]){margin-bottom:auto!important;margin-top:auto!important}.desktop\:ext-my-base:not([style*=margin]){margin-bottom:var(--wp--style--block-gap,1.75rem)!important;margin-top:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-my-lg:not([style*=margin]){margin-bottom:var(--extendify--spacing--large,3rem)!important;margin-top:var(--extendify--spacing--large,3rem)!important}.desktop\:ext--my-base:not([style*=margin]){margin-bottom:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important;margin-top:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.desktop\:ext--my-lg:not([style*=margin]){margin-bottom:calc(var(--extendify--spacing--large, 3rem)*-1)!important;margin-top:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.desktop\:ext-mt-0:not([style*=margin]){margin-top:0!important}.desktop\:ext-mt-auto:not([style*=margin]){margin-top:auto!important}.desktop\:ext-mt-base:not([style*=margin]){margin-top:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-mt-lg:not([style*=margin]){margin-top:var(--extendify--spacing--large,3rem)!important}.desktop\:ext--mt-base:not([style*=margin]){margin-top:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.desktop\:ext--mt-lg:not([style*=margin]){margin-top:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.desktop\:ext-mr-0:not([style*=margin]){margin-right:0!important}.desktop\:ext-mr-auto:not([style*=margin]){margin-right:auto!important}.desktop\:ext-mr-base:not([style*=margin]){margin-right:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-mr-lg:not([style*=margin]){margin-right:var(--extendify--spacing--large,3rem)!important}.desktop\:ext--mr-base:not([style*=margin]){margin-right:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.desktop\:ext--mr-lg:not([style*=margin]){margin-right:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.desktop\:ext-mb-0:not([style*=margin]){margin-bottom:0!important}.desktop\:ext-mb-auto:not([style*=margin]){margin-bottom:auto!important}.desktop\:ext-mb-base:not([style*=margin]){margin-bottom:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-mb-lg:not([style*=margin]){margin-bottom:var(--extendify--spacing--large,3rem)!important}.desktop\:ext--mb-base:not([style*=margin]){margin-bottom:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.desktop\:ext--mb-lg:not([style*=margin]){margin-bottom:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.desktop\:ext-ml-0:not([style*=margin]){margin-left:0!important}.desktop\:ext-ml-auto:not([style*=margin]){margin-left:auto!important}.desktop\:ext-ml-base:not([style*=margin]){margin-left:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-ml-lg:not([style*=margin]){margin-left:var(--extendify--spacing--large,3rem)!important}.desktop\:ext--ml-base:not([style*=margin]){margin-left:calc(var(--wp--style--block-gap, 1.75rem)*-1)!important}.desktop\:ext--ml-lg:not([style*=margin]){margin-left:calc(var(--extendify--spacing--large, 3rem)*-1)!important}.desktop\:ext-block{display:block!important}.desktop\:ext-inline-block{display:inline-block!important}.desktop\:ext-inline{display:inline!important}.desktop\:ext-flex{display:flex!important}.desktop\:ext-inline-flex{display:inline-flex!important}.desktop\:ext-grid{display:grid!important}.desktop\:ext-inline-grid{display:inline-grid!important}.desktop\:ext-hidden{display:none!important}.desktop\:ext-w-auto{width:auto!important}.desktop\:ext-w-full{width:100%!important}.desktop\:ext-max-w-full{max-width:100%!important}.desktop\:ext-flex-1{flex:1 1 0%!important}.desktop\:ext-flex-auto{flex:1 1 auto!important}.desktop\:ext-flex-initial{flex:0 1 auto!important}.desktop\:ext-flex-none{flex:none!important}.desktop\:ext-flex-shrink-0{flex-shrink:0!important}.desktop\:ext-flex-shrink{flex-shrink:1!important}.desktop\:ext-flex-grow-0{flex-grow:0!important}.desktop\:ext-flex-grow{flex-grow:1!important}.desktop\:ext-list-none{list-style-type:none!important}.desktop\:ext-grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))!important}.desktop\:ext-grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))!important}.desktop\:ext-grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))!important}.desktop\:ext-grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))!important}.desktop\:ext-grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))!important}.desktop\:ext-grid-cols-6{grid-template-columns:repeat(6,minmax(0,1fr))!important}.desktop\:ext-grid-cols-7{grid-template-columns:repeat(7,minmax(0,1fr))!important}.desktop\:ext-grid-cols-8{grid-template-columns:repeat(8,minmax(0,1fr))!important}.desktop\:ext-grid-cols-9{grid-template-columns:repeat(9,minmax(0,1fr))!important}.desktop\:ext-grid-cols-10{grid-template-columns:repeat(10,minmax(0,1fr))!important}.desktop\:ext-grid-cols-11{grid-template-columns:repeat(11,minmax(0,1fr))!important}.desktop\:ext-grid-cols-12{grid-template-columns:repeat(12,minmax(0,1fr))!important}.desktop\:ext-grid-cols-none{grid-template-columns:none!important}.desktop\:ext-flex-row{flex-direction:row!important}.desktop\:ext-flex-row-reverse{flex-direction:row-reverse!important}.desktop\:ext-flex-col{flex-direction:column!important}.desktop\:ext-flex-col-reverse{flex-direction:column-reverse!important}.desktop\:ext-flex-wrap{flex-wrap:wrap!important}.desktop\:ext-flex-wrap-reverse{flex-wrap:wrap-reverse!important}.desktop\:ext-flex-nowrap{flex-wrap:nowrap!important}.desktop\:ext-items-start{align-items:flex-start!important}.desktop\:ext-items-end{align-items:flex-end!important}.desktop\:ext-items-center{align-items:center!important}.desktop\:ext-items-baseline{align-items:baseline!important}.desktop\:ext-items-stretch{align-items:stretch!important}.desktop\:ext-justify-start{justify-content:flex-start!important}.desktop\:ext-justify-end{justify-content:flex-end!important}.desktop\:ext-justify-center{justify-content:center!important}.desktop\:ext-justify-between{justify-content:space-between!important}.desktop\:ext-justify-around{justify-content:space-around!important}.desktop\:ext-justify-evenly{justify-content:space-evenly!important}.desktop\:ext-justify-items-start{justify-items:start!important}.desktop\:ext-justify-items-end{justify-items:end!important}.desktop\:ext-justify-items-center{justify-items:center!important}.desktop\:ext-justify-items-stretch{justify-items:stretch!important}.desktop\:ext-justify-self-auto{justify-self:auto!important}.desktop\:ext-justify-self-start{justify-self:start!important}.desktop\:ext-justify-self-end{justify-self:end!important}.desktop\:ext-justify-self-center{justify-self:center!important}.desktop\:ext-justify-self-stretch{justify-self:stretch!important}.desktop\:ext-p-0:not([style*=padding]){padding:0!important}.desktop\:ext-p-base:not([style*=padding]){padding:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-p-lg:not([style*=padding]){padding:var(--extendify--spacing--large,3rem)!important}.desktop\:ext-px-0:not([style*=padding]){padding-left:0!important;padding-right:0!important}.desktop\:ext-px-base:not([style*=padding]){padding-left:var(--wp--style--block-gap,1.75rem)!important;padding-right:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-px-lg:not([style*=padding]){padding-left:var(--extendify--spacing--large,3rem)!important;padding-right:var(--extendify--spacing--large,3rem)!important}.desktop\:ext-py-0:not([style*=padding]){padding-bottom:0!important;padding-top:0!important}.desktop\:ext-py-base:not([style*=padding]){padding-bottom:var(--wp--style--block-gap,1.75rem)!important;padding-top:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-py-lg:not([style*=padding]){padding-bottom:var(--extendify--spacing--large,3rem)!important;padding-top:var(--extendify--spacing--large,3rem)!important}.desktop\:ext-pt-0:not([style*=padding]){padding-top:0!important}.desktop\:ext-pt-base:not([style*=padding]){padding-top:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-pt-lg:not([style*=padding]){padding-top:var(--extendify--spacing--large,3rem)!important}.desktop\:ext-pr-0:not([style*=padding]){padding-right:0!important}.desktop\:ext-pr-base:not([style*=padding]){padding-right:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-pr-lg:not([style*=padding]){padding-right:var(--extendify--spacing--large,3rem)!important}.desktop\:ext-pb-0:not([style*=padding]){padding-bottom:0!important}.desktop\:ext-pb-base:not([style*=padding]){padding-bottom:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-pb-lg:not([style*=padding]){padding-bottom:var(--extendify--spacing--large,3rem)!important}.desktop\:ext-pl-0:not([style*=padding]){padding-left:0!important}.desktop\:ext-pl-base:not([style*=padding]){padding-left:var(--wp--style--block-gap,1.75rem)!important}.desktop\:ext-pl-lg:not([style*=padding]){padding-left:var(--extendify--spacing--large,3rem)!important}.desktop\:ext-text-left{text-align:left!important}.desktop\:ext-text-center{text-align:center!important}.desktop\:ext-text-right{text-align:right!important}}
+
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://itic-solution.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='https://itic-solution.com/wp-content/themes/tanda/style.css?ver=6.0' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://itic-solution.com/wp-content/themes/tanda/css/bootstrap.min.css?ver=6.0' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://itic-solution.com/wp-content/themes/tanda/css/font-awesome.min.css?ver=6.0' media='all' />
+<link rel='stylesheet' id='tanda-icons-css'  href='https://itic-solution.com/wp-content/themes/tanda/css/themify-icons.css?ver=6.0' media='all' />
+<link rel='stylesheet' id='tanda-flaticons-css'  href='https://itic-solution.com/wp-content/themes/tanda/css/flaticon-set.css?ver=6.0' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='https://itic-solution.com/wp-content/themes/tanda/css/magnific-popup.css?ver=6.0' media='all' />
+<link rel='stylesheet' id='owl-carousel-css'  href='https://itic-solution.com/wp-content/themes/tanda/css/owl.carousel.min.css?ver=6.0' media='all' />
+<link rel='stylesheet' id='owl-carousal-default-css'  href='https://itic-solution.com/wp-content/themes/tanda/css/owl.theme.default.min.css?ver=6.0' media='all' />
+<link rel='stylesheet' id='animate-css'  href='https://itic-solution.com/wp-content/themes/tanda/css/animate.css?ver=6.0' media='all' />
+<link rel='stylesheet' id='bootsnav-css'  href='https://itic-solution.com/wp-content/themes/tanda/css/bootsnav.css?ver=6.0' media='all' />
+<link rel='stylesheet' id='tanda-style-css'  href='https://itic-solution.com/wp-content/themes/tanda/css/style.css?ver=6.0' media='all' />
+<link rel='stylesheet' id='tanda-responsive-css'  href='https://itic-solution.com/wp-content/themes/tanda/css/responsive.css?ver=6.0' media='all' />
+<link rel='stylesheet' id='tanda-fonts-css'  href='//fonts.googleapis.com/css?family=Inter%3A200%2C300%2C400%2C600%2C700%2C800%26subset%3Dlatin%2Clatin-ext&#038;ver=1.0.0' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://itic-solution.com/wp-content/plugins/tablepress/css/default.min.css?ver=1.14' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='https://itic-solution.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.6.0' media='all' />
+<!--n2css--><script src='https://itic-solution.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script src='https://itic-solution.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://itic-solution.com/wp-json/" /><link rel="alternate" type="application/json" href="https://itic-solution.com/wp-json/wp/v2/pages/481" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://itic-solution.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://itic-solution.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 6.0" />
+<link rel='shortlink' href='https://itic-solution.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://itic-solution.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fitic-solution.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://itic-solution.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fitic-solution.com%2F&#038;format=xml" />
+<meta name="generator" content="Redux 4.3.14" />			<meta name="keywords" content="Développement des applications web et mobile, création des sites web au MAROC, logiciel de gestion commercial, stock, logiciel des opticiens, logiciel de facturation, logiciel de gestion de stock, site web e-commerce, vitrine, blog">
+			<!-- Analytics by WP Statistics v13.2.4 - https://wp-statistics.com/ -->
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<link rel="icon" href="https://itic-solution.com/wp-content/uploads/2021/04/cropped-LOGO-SITE-COLOR-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://itic-solution.com/wp-content/uploads/2021/04/cropped-LOGO-SITE-COLOR-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://itic-solution.com/wp-content/uploads/2021/04/cropped-LOGO-SITE-COLOR-180x180.png" />
+<meta name="msapplication-TileImage" content="https://itic-solution.com/wp-content/uploads/2021/04/cropped-LOGO-SITE-COLOR-270x270.png" />
+		<style id="wp-custom-css">
+			a.popup-youtube.relative.video-play-button {
+    display: none;
+}
+.banner-area .content h4 {
+    margin-bottom: 0px;
+}
+.col-lg-2.col-md-61.item {
+	display:none;
+}
+.col-lg-2.col-md-6.item {
+    margin-left:90px;
+    margin-right:70px;
+}
+footer .item {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+h4.widget-title {
+    WIDTH: 200px;
+}
+.breadcrumb-area.shadow.dark.bg-fixed.text-light.less-background {
+    display: none;
+}
+.banner-area .content h4 {
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+.btn-standard {
+    text-align: center;
+    color: #086ad8;
+    margin-top: 15px;
+    border: 1px solid #e7e7e7;
+    display: none;
+    padding: 10px 35px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-size: 13px;
+}
+
+.default-padding.bottom-less {
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+.services-area .services-tabs ul {
+    border: none;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: -29px;
+    margin-right: -29px;
+}
+.services-area .services-tabs .info .content ul li {
+  display: none;
+  margin-bottom: 10px;
+  color: #0e2b3d;
+  font-weight: 600;
+  padding-left: 25px;
+  position: relative;
+}
+
+.services-area .services-tabs ul {
+    border: none;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: -29px;
+    margin-right: -29px;
+    display: none;
+}
+.services-area .services-tabs .tab-pane::after {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    content: "";
+    height: 100%;
+    width: 90%;
+    background: #f3f7fd;
+    z-index: -1;
+}
+.services-area.default-padding.bg-cover {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+footer .f-items.default-padding {
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+i.ti-search {
+    display: none;
+}
+.top-features-area .item .icon i {
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #086AD8;
+    position: static;
+    z-index: 1;
+    padding: 20px;
+}
+.top-features-area .item .icon i {
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: #086AD8;
+    position: static;
+    z-index: 1;
+    padding: 0px;
+    margin-top: 0px;
+}
+.site-heading {
+    margin-bottom: -20px;
+    overflow: hidden;
+    margin-top: -5px;
+}
+.default-padding-top {
+  padding-top: 0px;
+}
+
+.about-area.relative.reverse {
+    margin-top: 100px;
+}
+.clients-area.default-padding {
+    margin-bottom: -70px;
+}
+.fixed-shape-bottom {
+    display: none;
+}
+.top-features-area .item .icon i::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #086AD8;
+    z-index: -1;
+    border-radius: 38% 62% 50% 38% / 41% 44% 56% 59%;
+    opacity: 0.1;
+}
+
+
+
+.tablepress thead th {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.tablepress th.column-1 {
+    background-color: #F5B923;
+
+}
+
+.tablepress th.column-2 {
+    background-color: #007C48;
+}
+
+
+
+.tablepress .row-2 {
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+	
+}
+
+
+
+.tablepress .row-2 .column-1 {
+    background-color: #FFCA00;
+
+}
+
+.tablepress .row-2 .column-2 {
+    background-color: #01B48D;
+
+}
+
+
+
+
+
+.tablepress td, .tablepress th {
+    text-align: center;
+}
+
+.tablepress tfoot a {
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    background-color: #FFCA00;
+    max-width: 160px;
+    padding: 3px 10px;
+    border-radius: 100px;
+    margin: 0 auto;
+  
+}
+
+.tablepress tfoot th {
+    background-color: white !important;
+    border-radius: 0 0 20px 20px;
+   
+}
+
+.tablepress tfoot .column-2 a {
+    background-color:#01B48D;
+}
+
+
+
+.tablepress.column-1 {
+    background-color: #eee;
+}
+
+
+
+.tablepress td, 
+.tablepress .pt-icon {
+    vertical-align: middle;
+}
+		</style>
+		<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+</head>
+<body class="home page-template page-template-page-templates page-template-home5 page-template-page-templateshome5-php page page-id-481 wpb-js-composer js-comp-ver-6.6.0 vc_responsive">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>    
+    <!-- Preloader Start -->
+    <div id="site-preloader" class="site-preloader">
+        <div class="loader-wrap">
+            <div class="ring">
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Ends -->
+    <!-- Header 
+    ============================================= -->
+    <header id="home">
+
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-default inc-topbar navbar-fixed white no-background bootsnav">
+
+            <!-- Start Top Search -->
+            <div class="container-full">
+                <div class="row">
+                    <div class="top-search">
+                        <div class="input-group">
+                             <form role="search" method="get" action="https://itic-solution.com/">
+                    <input type='search' name="s" placeholder="Search Here..." class="form-control" id="search-box" value="" >
+                                <button type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>  
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Top Search -->
+
+            <div class="container">
+
+                <!-- Start Atribute Navigation -->
+                <div class="attr-nav inc-border">
+                    <ul>
+                        <li class="search"><a href="#"><i class="ti-search"></i></a></li>
+                        <li class="side-menu"><a href="#"><i class="ti-menu-alt"></i></a></li>
+                    </ul>
+                </div>        
+                <!-- End Atribute Navigation -->
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="https://itic-solution.com/">
+                         <img src="http://itic-solution.com/wp-content/uploads/2021/04/LOGO-SITE-WHITE.png" class="logo logo-display" alt="Logo">
+                        <img src="http://itic-solution.com/wp-content/uploads/2021/04/LOGO-SITE-COLOR.png" class="logo logo-scrolled" alt="Logo">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+               
+
+                 <div id="navbar-menu" class="collapse navbar-collapse"><ul id="menu-home-version-5-onepage" class="nav navbar-nav navbar-center"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-518" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active menu-item-518 nav-item"><a title="Accueil" href="http://itic-solution.com" class="nav-link" aria-current="page">Accueil</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-519" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active menu-item-519 nav-item"><a title="Services" href="http://itic-solution.com/#service" class="nav-link" aria-current="page">Services</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-521" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active menu-item-521 nav-item"><a title="Solutions" href="http://itic-solution.com/#solutions" class="nav-link" aria-current="page">Solutions</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-520" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active menu-item-520 nav-item"><a title="A Propos" href="http://itic-solution.com/#about" class="nav-link" aria-current="page">A Propos</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-815" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active menu-item-815 nav-item"><a title="Contact" href="http://itic-solution.com/#contact" class="nav-link" aria-current="page">Contact</a></li>
+</ul></div>            </div>
+
+             <!-- Start Side Menu -->
+            <div class="side">
+                <a href="#" class="close-side"><i class="ti-close"></i></a>
+                <div class="widget">
+                    <h4 class="title">Contact </h4>
+                    <ul class="contact">
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info">
+                                <span>Téléphone</span> +212 8 08 57 58 86                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-envelope-open"></i>
+                            </div>
+                            <div class="info">
+                                <span>Email</span> contact@itic-solution.com                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info">
+                                <span>HEURES DE TRAVAIL</span> Heures de travail : 8:30 AM – 6:30 PM                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <h4 class="title">Additional Links</h4>
+                   <div class="menu-liens-supplementaires-container"><ul id="menu-liens-supplementaires" class="menu"><li id="menu-item-1048" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1048"><a href="http://itic-solution.com/#service" aria-current="page">Services</a></li>
+<li id="menu-item-1047" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1047"><a href="http://itic-solution.com/#about" aria-current="page">A Propos</a></li>
+<li id="menu-item-1010" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1010"><a href="http://itic-solution.com/Solutions/">Solutions</a></li>
+<li id="menu-item-1049" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1049"><a href="http://itic-solution.com/#contact" aria-current="page">Contact</a></li>
+<li id="menu-item-1050" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1050"><a href="http://itic-solution.com/help-faqs/">Aide et FAQ</a></li>
+</ul></div>                </div>
+                <div class="widget social">
+                    <h4 class="title">Contactez-Nous</h4>
+                    <ul class="link">
+                        <li class="facebook"><a href="https://www.facebook.com/ITIC-Solution-111864644021070/"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="twitter"><a href="https://www.instagram.com/itic_solution/"><i class="fab fa-instagram"></i></a></li>
+                        <li class="pinterest"><a href="https://ma.linkedin.com/company/itic-solution"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Side Menu -->
+
+        </nav>
+        <!-- End Navigation -->
+
+    </header>
+    <!-- End Header -->
+ <div id="home" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><!-- Start Banner 
+    ============================================= -->
+    <div class="banner-area home2-banner-fix content-less bottom-shape bg-gradient text-light center-item text-color">
+        <!-- Fixed Shape -->
+        <div class="fixed-shape">
+            <img src="https://itic-solution.com/wp-content/uploads/2021/01/waves-shape-3.svg" alt="Shape">
+        </div>
+        <!-- End Fixed Shape -->
+        <div class="item">
+            <div class="container">
+                <div class="row align-center">
+                                    
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <h4 class="wow fadeInLeft">IT Software Web &amp; Mobile</h4>
+                            <h2 class="wow fadeInDown">Créer une meilleure <strong>solution IT</strong></h2>
+                            <div class="bottom">
+                                <a class="wow fadeInUp btn circle btn-light border btn-md" href="#contact">Commencez maintenant</a>
+                                <a class="popup-youtube relative video-play-button" href="">
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 thumb">
+                        <img class="wow fadeInUp" src="https://itic-solution.com/wp-content/uploads/2021/04/itic.png" alt="Thumb">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Fixed Shape -->
+        <div class="fixed-shape-bottom">
+            <img src="assets/img/shape/13.png" alt="Shape">
+        </div>
+        <!-- End Fixed Shape -->
+    </div>
+    <!-- End Banner --></div></div></div></div><div id="client" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><!-- Start Clients 
+    ============================================= -->
+    <div class="clients-area default-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="clients-carousel owl-carousel owl-theme"><img src="https://itic-solution.com/wp-content/uploads/2021/09/20210921_181124.png" alt="Client"><img src="https://itic-solution.com/wp-content/uploads/2021/04/logoPremiumTrans.png" alt="Client"><img src="https://itic-solution.com/wp-content/uploads/2021/09/20210916_030524.png" alt="Client"><img src="https://itic-solution.com/wp-content/uploads/2021/10/LOGO122.png" alt="Client"><img src="https://itic-solution.com/wp-content/uploads/2021/09/20210916_030613.png" alt="Client"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Clients Area --></div></div></div></div><div id="service" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><!-- Start Features 
+============================================= -->
+<div class="features-area overflow-hidden bg-gray default-padding">
+    <!-- Fixed Shpae  -->
+    <div class="fixed-shape shape left bottom">
+        <img src="https://itic-solution.com/wp-content/uploads/2022/01/3-1.png" alt="Shape">
+    </div>
+    <!-- End Fixed Shpae  -->
+    <div class="container">
+        <div class="row align-center">
+            <div class="col-lg-5 why-us">
+                <h5>Nos services</h5>
+                <h2>Solutions informatiques personnalisées pour votre entreprise</h2>
+                <p>
+                    Notre expertise technique nous permet de sélectionner et d’implémenter les solutions les mieux adaptées aux besoins spécifiques de chaque client. Et toujours les cas les plus complexes font partie des défis que nous aimons relever.
+                </p><a class="popup-youtube relative theme video-play-button" href="#">
+                    <i class="play"></i> <span>start Now</span>
+                </a></div>
+            <div class="col-lg-7 features-box text-center">
+                <div class="row"><div class="col-lg-6 col-md-6 item-grid">
+        <!-- Single Item -->
+                        <div class="item">
+                            <i class="services"></i>
+                            <h5><a href="https://web.itic-solution.com/">Sites Web</a></h5>
+                            <p>
+                                 Notre expérience en développement de nombreux sites E-commerce, sites web vitrines et sur mesure, ainsi que la gestion du marketing digital de nombreuses entreprises nous ont donné le recul pour connaître vos besoins et les meilleures stratégies à adopter.
+                            </p>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <i class="services"></i>
+                            <h5><a href="http://itic-solution.com/#solutions">Applications Web</a></h5>
+                            <p>
+                                 Nous avons créé une équipe professionnelle de développeurs d'applications Web ( frontend et backend) pour pouvoir correspondre efficacement aux besoins de nos clients.
+                            </p>
+                        </div>
+                        <!-- End Single Item -->
+
+                        </div><div class="col-lg-6 col-md-6 item-grid">
+        <!-- Single Item -->
+                        <div class="item">
+                            <i class="services"></i>
+                            <h5><a href="http://itic-solution.com/#solutions">Applications Mobile</a></h5>
+                            <p>
+                                 Lorsqu'une entreprise ou une personne est confrontée à la problématique du développement d'applications mobiles, chez ITIC Solution nous proposons à nos clients un développement mobile.
+                            </p>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <i class="services"></i>
+                            <h5><a href="http://itic-solution.com/#solutions">Formation &amp; Consultation</a></h5>
+                            <p>
+                                 La formation permet d’acquérir les compétences . Il s’agit d’acquérir une méthodologie solide pour prendre en charge le développement d’applications informatiques suite à l’expression des exigences fournies par un client.
+                            </p>
+                        </div>
+                        <!-- End Single Item -->
+
+                        </div></div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- End Features Area --></div></div></div></div><div id="about" class="vc_row wpb_row vc_row-fluid home5-about"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"> <!-- Star About Area
+    ============================================= -->
+    <div class="about-area relative reverse">
+        <div class="container">
+            <div class="row align-center">
+                
+                <div class="col-lg-6 info">
+                    <h5>A propos</h5>
+                    <h2>Des solutions informatiques adaptées à votre entreprise</h2>
+                    <p>
+                        ITIC SOLUTION est société de services en informatique créée en 2021 pour suggérer des solutions pour les entreprises et les particuliers, nous proposons également de la vente de matériels et logiciels.<br />
+Munis de leurs connaissances poussées en informatique, nos techniciens d’expérience offrent un soutien complet pour votre entreprise et vous donnent des conseils judicieux. Nous analysons votre infrastructure informatique, vous faisons part de nos recommandations et gérons le tout de façon professionnelle et adaptée à votre situation d’affaires. Vous profitez ainsi d’une solution complète et personnalisée à votre entreprise, à votre environnement et à votre réalité.
+                    </p>
+                    <div class="skill-items"><!-- Progress Bar Start -->
+                        <div class="progress-box">
+                            <h5>Software Mobile</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="88">
+                                     <span>88%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Progress Bar End --><!-- Progress Bar Start -->
+                        <div class="progress-box">
+                            <h5>Software Web</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="95">
+                                     <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Progress Bar End --><!-- Progress Bar Start -->
+                        <div class="progress-box">
+                            <h5>Formation &amp; Consultation</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-width="80">
+                                     <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Progress Bar End --></div>
+                </div>
+
+                <div class="col-lg-6 thumbs">
+                    <img src="https://itic-solution.com/wp-content/uploads/2021/04/Services-e1585911623176-1024x562-1.png" alt="Thumb">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End About Area --></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><!-- Start Works About 
+    ============================================= -->
+    <div class="works-about-area reverse bg-gray overflow-hidden">
+        <div class="container">
+            <div class="works-about-items default-padding">
+                <div class="row align-center">
+                    <div class="col-lg-6 info">
+                        <h5>Nos valeurs</h5>
+                        <h2>Vous simplifier la vie<br></h2>
+                        <p>
+                             Nous sommes engagés auprès de nos clients pour mettre à leur disposition, en permanence, les solutions les plus performantes.<br />
+Dans ITIC SOLUTION nous proposons à nos clients les solutions et les outils de développement web ou mobile qui leur font gagner du temps et de l’efficacité.<br />
+Notre expertise technique nous permet de sélectionner et d’implémenter les solutions les mieux adaptées aux besoins spécifiques de chaque client. Et toujours les cas les plus complexes font partie des défis que nous aimons relever. 
+                        </p>
+                        <ul>
+                            <li>
+                                <h5>100% Client Satisfait</h5>
+                            </li>
+                            <li>
+                                <h5>Travail de Haut Niveau</h5>
+                            </li>
+                        </ul><a href="http://itic-solution.com/#solutions" class="btn btn-theme effect btn-sm">Projets Achevés</a></div>
+                    <div class="col-lg-6">
+                        <div class="thumb">
+                            <img src="https://itic-solution.com/wp-content/uploads/2021/01/2-2-3.png" alt="Thumb">
+                            <div class="fun-fact">
+                                <div class="timer" data-to="30" data-speed="5000"></div>
+                                <span class="medium">Projets Achevés</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Works About Area --></div></div></div></div><section class="vc_section"><div id="solutions" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div  class="vc_wp_text wpb_content_element"><div class="widget widget_text">			<div class="textwidget"></p>
+<h2 style="text-align: center; color: #086ad8;"><strong>Nos Solutions</strong></h2>
+<p>
+</div>
+		</div></div><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_20 vc_sep_border_width_6 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_sky" ><span class="vc_sep_holder vc_sep_holder_l"><span  class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span  class="vc_sep_line"></span></span>
+</div><div  class="vc_wp_text wpb_content_element"><div class="widget widget_text">			<div class="textwidget"><p></p>
+<div id="metaslider-id-1410" style="width: 100%;" class="ml-slider-3-27-5 metaslider metaslider-flex metaslider-1410 ml-slider">
+<div id="metaslider_container_1410">
+<div id="metaslider_1410">
+<ul aria-live="polite" class="slides">
+<li style="display: none; width: 100%;" class="slide-1411 ms-image"><a href="http://iticcommercial.itic-solution.com/" target="_blank" rel="noopener"><img src="https://itic-solution.com/wp-content/uploads/2022/05/itic-commercial-1.png" height="500" width="700" alt="ITIC Commercial - Gestion Commercial" class="slider-1410 slide-1411" title="ITIC Commercial - Gestion Commercial" /></a>
+<div class="caption-wrap">
+<div class="caption">ITIC Commercial - Gestion Commercial</div>
+</div>
+</li>
+<li style="display: none; width: 100%;" class="slide-1412 ms-image"><a href="https://optic-app.com/" target="_blank" rel="noopener"><img src="https://itic-solution.com/wp-content/uploads/2022/05/opticapp-logiciel.png" height="500" width="700" alt="Opticapp - Logiciel pour les opticiens" class="slider-1410 slide-1412" title="Opticapp -  Logiciel pour les opticiens" /></a>
+<div class="caption-wrap">
+<div class="caption">Opticapp -  Logiciel pour les opticiens</div>
+</div>
+</li>
+<li style="display: none; width: 100%;" class="slide-1413 ms-image"><a href="https://web.itic-solution.com/fr/" target="_blank" rel="noopener"><img src="https://itic-solution.com/wp-content/uploads/2022/05/sites-web.png" height="500" width="700" alt="Conception et Création des sites web" class="slider-1410 slide-1413" title="Conception et Création des sites web" /></a>
+<div class="caption-wrap">
+<div class="caption">Conception et Création des sites web</div>
+</div>
+</li>
+<li style="display: none; width: 100%;" class="slide-1414 ms-image"><a href="http://restomatique.itic-solution.com/" target="_blank" rel="noopener"><img src="https://itic-solution.com/wp-content/uploads/2022/05/restomatique-itic.png" height="500" width="700" alt="Restomatique - Logiciel pour gérer les cafés et les restaurants" class="slider-1410 slide-1414" title="Restomatique - Logiciel pour gérer les cafés et les restaurants" /></a>
+<div class="caption-wrap">
+<div class="caption">Restomatique - Logiciel pour gérer les cafés et les restaurants</div>
+</div>
+</li>
+</ul></div></div>
+</div>
+</div>
+		</div></div></div></div></div></div></section><div id="contact" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><!-- Start Contact 
+    ============================================= -->
+    <div class="contact-area overflow-hidden default-padding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 contact-form-box">
+                    <div class="content">
+                        <div class="heading">
+                            <h2>Contactez-nous</h2>
+                            <p></p>
+                        </div><div role="form" class="wpcf7" id="wpcf7-f148-p481-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/#wpcf7-f148-p481-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="148" />
+<input type="hidden" name="_wpcf7_version" value="5.6" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f148-p481-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="481" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+<input type="hidden" name="_wpcf7_recaptcha_response" value="" />
+</div>
+<div class="row">
+<div class="col-lg-6">
+<div class="form-group">
+<span class="wpcf7-form-control-wrap" data-name="your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="name" aria-required="true" aria-invalid="false" placeholder="Nom" /></span><br />
+<span class="alert-error"></span>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="form-group">
+<span class="wpcf7-form-control-wrap" data-name="email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" id="email" aria-required="true" aria-invalid="false" placeholder="Email*" /></span><br />
+<span class="alert-error"></span>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<div class="form-group">
+<span class="wpcf7-form-control-wrap" data-name="phone"><input type="tel" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel form-control" id="phone" aria-invalid="false" placeholder="Télephone" /></span><br />
+<span class="alert-error"></span>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<div class="form-group comments">
+<span class="wpcf7-form-control-wrap" data-name="comments"><textarea name="comments" cols="40" rows="2" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control" id="comments" aria-required="true" aria-invalid="false" placeholder="Veuillez décrire ce dont vous avez besoin *"></textarea></span>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-12">
+<button type="submit" name="submit" id="submit">Obtenez une consultation gratuite</button>
+</div>
+</div>
+<p><!-- Alert Message --></p>
+<div class="col-md-12 alert-notification">
+<div id="message" class="alert-msg"></div>
+</div>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div></div>
+                </div><div class="col-lg-6 info">
+    <div class="contact-tabs">
+        <ul id="tabs" class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="" data-target="#tab1" data-toggle="tab" class="active nav-link">
+                    Contact
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" data-target="#tab2" data-toggle="tab" class="nav-link">
+                    maps
+                </a>
+            </li>
+        </ul>
+        <div id="tabsContent" class="tab-content">
+            <div id="tab1" class="tab-pane fade active show">
+                <ul>
+                    <li>
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info">
+                            <p>
+                                Notre Site
+                                <span>N°3 Immeuble Karoum Cité Azmani Ouled Teima, Maroc</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fas fa-envelope-open"></i>
+                        </div>
+                        <div class="info">
+                            <p>
+                                Envoyez-Nous un Mail
+                                <span>contact@itic-solution.com</span>
+                            </p>
+                        </div>
+                    </li><li>
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info">
+                            <p>
+                                Appelez-nous
+                                <span>+212808575886<br />
++212622853711<br />
++212631472947</span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="tab2" class="tab-pane fade">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13765.739984698952!2d-9.2119158!3d30.3953979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x76b51d985ea43013!2sSt%C3%A9%20ITIC%20SOLUTION%20Sarl!5e0!3m2!1sfr!2sma!4v1618927854599!5m2!1sfr!2sma"></iframe>
+            </div>
+        </div>
+    </div>
+</div></div>
+        </div>
+    </div>
+    <!-- End Contact Area --></div></div></div></div>
+
+ <!-- Start Footer 
+    ============================================= -->
+    <footer class="bg-dark text-light">
+        <!-- Fixed Shape -->
+        <div class="fixed-shape">
+            <img src="https://itic-solution.com/wp-content/themes/tanda/img/map.svg" alt="Shape">
+        </div>
+        <!-- Fixed Shape -->
+        <div class="container">
+            <div class="f-items default-padding">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 item">
+                        <div class="f-item about">
+                            <img src="http://itic-solution.com/wp-content/uploads/2021/04/LOGO-SITE-WHITE.png" alt="Logo">
+                            <p>
+                                La société produira des logiciels et des applications et donnera des formations professionnelles a leur clients pour améliorer son activité.                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-2 col-md-6 item">
+                        <div class="f-item link">
+                            <h4 class="widget-title">Liens Rapides</h4>
+                            <div class="menu"><ul>
+<li class="page_item page-item-145"><a href="https://itic-solution.com/contact-us/">Contact Us</a></li>
+<li class="page_item page-item-121"><a href="https://itic-solution.com/help-faqs/">Help &#038; FAQs</a></li>
+<li class="page_item page-item-481 current_page_item"><a href="https://itic-solution.com/" aria-current="page">Home</a></li>
+<li class="page_item page-item-1387"><a href="https://itic-solution.com/slide-anything-popup-preview/">Slide Anything Popup Preview</a></li>
+</ul></div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-2 col-md-61 item">
+                        <div class="f-item link">
+                            <h4 class="widget-title"></h4>
+                            <div class="menu"><ul>
+<li class="page_item page-item-145"><a href="https://itic-solution.com/contact-us/">Contact Us</a></li>
+<li class="page_item page-item-121"><a href="https://itic-solution.com/help-faqs/">Help &#038; FAQs</a></li>
+<li class="page_item page-item-481 current_page_item"><a href="https://itic-solution.com/" aria-current="page">Home</a></li>
+<li class="page_item page-item-1387"><a href="https://itic-solution.com/slide-anything-popup-preview/">Slide Anything Popup Preview</a></li>
+</ul></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 item">
+                    <div class="f-item">
+                        <h4 class="widget-title">Contact</h4>
+                        <div class="address">
+                            <ul>
+                                <li>
+                                    <div class="icon">
+                                        <i class="flaticon-pin"></i>
+                                    </div>
+                                    <div class="info">
+                                        N°3, Immeuble Karoum, Cité Azmani, Ouled Teima, Maroc                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="flaticon-email-1"></i>
+                                    </div>
+                                    <div class="info">
+                                        <a href="mailto:http://Contact@itic-solution.com">Contact@itic-solution.com</a> <br> <a href="mailto:"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="flaticon-telephone"></i>
+                                    </div>
+                                    <div class="info">
+                                        +212808575886 <br> +212622853711 / +212631472947                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Start Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; Copyright 2021. ITIC SOLUTION</p>
+                    </div>
+                    <div class="col-md-6 text-right link">
+                        <div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-884"><a href="http://itic-solution.com/help-faqs/">Aide et FAQ</a></li>
+</ul></div>                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Bottom -->
+    </footer>
+    <!-- End Footer -->
+<link rel='stylesheet' id='metaslider-flex-slider-css'  href='https://itic-solution.com/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=3.27.5' media='all' property='stylesheet' />
+<link rel='stylesheet' id='metaslider-public-css'  href='https://itic-solution.com/wp-content/plugins/ml-slider/assets/metaslider/public.css?ver=3.27.5' media='all' property='stylesheet' />
+<style id='metaslider-public-inline-css'>
+
+        #metaslider_1410.flexslider .slides li {margin-right: 5px !important;}
+</style>
+<script src='https://itic-solution.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script src='https://itic-solution.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script id='contact-form-7-js-extra'>
+var wpcf7 = {"api":{"root":"https:\/\/itic-solution.com\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+</script>
+<script src='https://itic-solution.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.6' id='contact-form-7-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/popper.min.js?ver=6.0' id='popper-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/bootstrap.min.js?ver=6.0' id='bootstrap-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/equal-height.min.js?ver=6.0' id='equal-height-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/jquery.appear.js?ver=6.0' id='jquery-appear-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/jquery.easing.min.js?ver=6.0' id='jquery-easing-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/jquery.magnific-popup.min.js?ver=6.0' id='magnific-popup-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/modernizr.custom.13711.js?ver=6.0' id='modernizr-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/owl.carousel.min.js?ver=6.0' id='owl-carousel-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/wow.min.js?ver=6.0' id='wow-min-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/progress-bar.min.js?ver=6.0' id='progress-bar-js'></script>
+<script src='https://itic-solution.com/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=6.6.0' id='isotope-js'></script>
+<script src='https://itic-solution.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/count-to.js?ver=6.0' id='count-to-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/YTPlayer.min.js?ver=6.0' id='ytplayer-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/jquery.nice-select.min.js?ver=6.0' id='jquery-nice-select-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/bootsnav.js?ver=6.0' id='bootsnav-js'></script>
+<script src='https://itic-solution.com/wp-content/themes/tanda/js/main.js?ver=6.0' id='tanda-main-js'></script>
+<script src='https://www.google.com/recaptcha/api.js?render=6LeHKrUaAAAAANruDbY3LvM7v0wnValbFFVRtb1f&#038;ver=3.0' id='google-recaptcha-js'></script>
+<script id='wpcf7-recaptcha-js-extra'>
+var wpcf7_recaptcha = {"sitekey":"6LeHKrUaAAAAANruDbY3LvM7v0wnValbFFVRtb1f","actions":{"homepage":"homepage","contactform":"contactform"}};
+</script>
+<script src='https://itic-solution.com/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.6' id='wpcf7-recaptcha-js'></script>
+<script src='https://itic-solution.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.6.0' id='wpb_composer_front_js-js'></script>
+<script src='https://itic-solution.com/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider.min.js?ver=3.27.5' id='metaslider-flex-slider-js'></script>
+<script id='metaslider-flex-slider-js-after'>
+var metaslider_1410 = function($) {$('#metaslider_1410').addClass('flexslider');
+            $('#metaslider_1410').flexslider({ 
+                slideshowSpeed:3000,
+                animation:'slide',
+                controlNav:true,
+                directionNav:true,
+                pauseOnHover:true,
+                direction:'horizontal',
+                reverse:false,
+                animationSpeed:600,
+                prevText:"Précédent",
+                nextText:"Suivante",
+                fadeFirstSlide:true,
+                easing:"linear",
+                slideshow:true,
+                itemWidth:700,
+                minItems:1,
+                itemMargin:5
+            });
+            $(document).trigger('metaslider/initialized', '#metaslider_1410');
+        };
+        var timer_metaslider_1410 = function() {
+            var slider = !window.jQuery ? window.setTimeout(timer_metaslider_1410, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_1410, 1) : metaslider_1410(window.jQuery);
+        };
+        timer_metaslider_1410();
+</script>
+<script src='https://itic-solution.com/wp-content/plugins/ml-slider/assets/easing/jQuery.easing.min.js?ver=3.27.5' id='metaslider-easing-js'></script>
+
+</body>
+</html>
+<!-- Page generated by LiteSpeed Cache 4.6 on 2022-06-29 04:38:03 -->

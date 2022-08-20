@@ -1,0 +1,21 @@
+<div #ContainerRef class="card-body">
+
+    <div class="d-flex justify-content-center mb-5" >
+    </div>
+        
+    <ngx-charts-bar-vertical
+    [view]="[ContainerRef.offsetWidth, 400]"
+    [scheme]="colorScheme"
+    [results]="multi"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="showLegend"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabel"
+    [legendTitle]="legendTitle"
+    ></ngx-charts-bar-vertical>
+
+</div>

@@ -1,0 +1,89 @@
+.containe{
+    margin-top:20px;
+    
+}
+.order-card {
+    color: #fff;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg,#4099ff,#73b4ff);
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+    background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg,#FF5370,#ff869a);
+}
+
+.cen{
+    text-align: center;
+}
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 15px 25px 10px 25px;
+}
+
+mat-icon{
+    font-size: 32px;
+}
+
+.fa{
+    font-size: 30px;
+}
+
+.bx{
+    font-size: 35px;
+}
+
+
+
+.container{
+    height: 400;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+    font-size: 25px;
+}
+
+
+
+
+.bar-chart-card{
+    padding: 30px;
+
+}
+
+.line-chart-card{
+
+    padding: 30px 30px 6px 30px;
+}
+
+.pie-chart-card{
+
+    padding: 20px;
+}
+.doughnut-chart-card{
+
+    padding: 20px 20px 84px 20px;
+}

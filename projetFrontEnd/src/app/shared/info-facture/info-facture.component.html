@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-sm-5">
+<router-outlet></router-outlet></div>
+<div class="col-sm-7">
+   <div *ngIf="type==1" ><app-test></app-test></div>
+   <div *ngIf="type==2"><app-facture2></app-facture2></div>
+<!-- <app-facture2></app-facture2> -->
+</div>
+</div>

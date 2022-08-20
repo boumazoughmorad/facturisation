@@ -1,0 +1,104 @@
+<div class="card mt-3 p-3">
+  <br><br><br>
+  <div class="">
+    <div class="card-body card-prix ">
+      <div class="demo-button-container row" fxLayoutAlign="flex-end">
+       <div class="col-2"> <button type="button" class="btn btn-success" routerLink="/welcome/reglement/ajouterReglemnt" >
+          <i class="fa fa-plus-circle fa-lg me-1" aria-hidden="true"></i>
+          Ajoute Reglement</button>
+      </div><div class="col-2"></div>
+      <div class="col-8">
+      <input  placeholder="Rechereche" style="width: 100%;"  [(ngModel)]="firstName"></div>
+    <!-- </mat-form-field> -->
+  </div>
+      </div>
+      
+      <!-- <mat-form-field appearance="outline">
+        <mat-label>Filtrer Fournisseur</mat-label> -->
+        
+  <br>
+      <div>
+        <table  style="width: 100%;">
+          <hr style="border-top: 1px dashed red;">
+          <!-- ID Column -->
+          <tbody *ngFor="let reglements of reglements | filter:firstName ">
+          <tr>
+            <th > Fournisseur </th>
+            <td >
+              <i *ngFor="let user of users ">
+                <i *ngIf="reglements.id_user==user.id">
+                  {{user.nom_socieite}}
+                </i>
+              </i>
+            </td>
+          </tr>
+  
+          <!-- Nom Column -->
+          <!-- <tr>
+            <th > N° Bon </th>
+            <td >  row.bonAchat.bonANum </td>
+       
+          </tr> -->
+  
+  
+          <!-- Tele Column -->
+         <tr>
+            <th > Code RF </th>
+            <td > {{reglements.reference_reg}} </td>
+       </tr>
+  
+          <!-- <tr>
+            <th > Date Paiement </th>
+            <td > row.datePayment </td>
+          </tr> -->
+  
+          <tr>
+            <th > Mode de Réglement </th>
+            <!-- <td > {{reglements.Type_payée}} </td> -->
+          </tr>
+  
+          <tr>
+            <th > Avance </th>
+            <!-- <td >{{reglements.prix_payée}}</td> -->
+       
+          </tr>
+          <tr>
+          
+            <th > Reste </th>
+            <td >{{reglements.prix_reste}}</td>
+          </tr>
+          <tr>
+  
+         
+            <th > Status </th>
+            <td >
+              <span *ngIf="reglements.deleted_at!=null" class="span-satus-true">R</span>
+              <span  *ngIf="reglements.deleted_at==null" class="span-satus-false">S</span>
+            </td>
+          </tr>
+  
+          <!-- Action column -->
+          <tr>
+            <th > Actions </th>
+            <td >
+              <div class="actions">
+                <button  class="btn btn-outline-danger" (click)="supprimer(reglements.id)" href="welcome/reglement/listReglement">
+                  <i class="fa fa-trash"aria-hidden="true" >supprimer</i>
+                </button>
+              </div>
+            </td>
+          </tr>
+          <!-- Row shown when there is no matching data. -->
+          <!-- <tr class="mat-row" >
+            <td class="mat-cell" colspan="4">No data matching the filter "input.value"</td>
+          </tr> -->
+          <hr style="border-top: 1px dashed red;width: 100%;">
+        </tbody>
+        </table>
+  
+        <!-- <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+        <notifier-container></notifier-container> -->
+      </div>
+    </div>
+  </div>
+  

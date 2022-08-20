@@ -1,0 +1,44 @@
+<body classname="snippet-body">
+    <div class="container-fluid px-1 py-5 mx-auto ">
+
+
+<div class="card b-0">
+
+<form>
+<fieldset class="show">
+<div class="form-card">
+<h5 class="sub-heading">Client</h5>
+
+<div class="form-group">
+<label class="form-control-label"> Nom du client * :</label>
+<input type="text" id="fname" name="nom_client" placeholder=""  class="form-control" (change)="valeurNom($event)">
+</div>
+<div class="form-group">
+<label class="form-control-label">ICE * :</label>
+<input type="text" id="fname" name="ice" placeholder=""  class="form-control" (change)="valeurice($event)">
+</div>
+<div class="form-group">
+<label class="form-control-label">Adresse du client * :</label>
+<input type="text" id="fname" name="addres" placeholder=""  class="form-control" (change)="valeurAdd($event)">
+</div>
+<div class="form-group">
+<label class="form-control-label">numéro de telefone du client * :</label>
+<input type="text" id="fname" name="num" placeholder=""  class="form-control" (change)="valeurtele($event)">
+</div>
+
+</div>
+</fieldset> 
+
+<a  class="main-btn"  style="float: right;" (click)="ajouter()">ajouter</a>
+
+
+   
+
+
+</form>
+</div>
+</div>
+
+
+</body>
+

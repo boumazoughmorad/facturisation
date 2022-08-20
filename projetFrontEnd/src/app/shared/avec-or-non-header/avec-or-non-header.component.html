@@ -1,0 +1,61 @@
+<body classname="snippet-body">
+    <div class="container-fluid px-1 py-5 mx-auto">
+<div class="row  justify-content-center">
+<div class="col-xl-9 col-lg-8 col-md-8">
+<div class="card b-0">
+<h3 class="heading">Remplir ce formillier</h3>
+<!-- <p class="desc">Fill out the form or call <span class="yellow-text">123 456 7891</span><br>to start protecting your business today!</p> -->
+
+
+
+
+
+<ul id="progressbar" class="text-center">
+<li class="active step0" id="step1"></li>
+<li class="active step0" id="step2"></li>
+<li class="active step0" id="step3"></li>
+<li class="active step0" id="step4"></li>
+</ul>
+<fieldset class="show">
+    <div class="form-card">
+   
+        <div class="see-our-projects">
+            <h1>  <span class="yellow-stroke">Choisissez </span> </h1>
+            <i class="projects-wrapper" style="width: 30%; float: left; ">
+              <div class="project" routerLink="/infofacture/infouser" style="background-color: rgb(189, 231, 255);">
+                <i>avec header</i>
+               <img src="assets/img/avec_h.png" height="300px">
+                  </div>
+             
+            
+             
+            </i>
+            <i class="projects-wrapper" style="width: 30%; float:right;" >
+                <div class="project"  routerLink="/imprimer" style="background-color: rgb(189, 231, 255);">
+                    <i>son header</i>
+                    <!-- <div style="border: 6px;"> -->
+                    <img src="assets/img/son.png" height="300px" >
+
+                    <!-- </div> -->
+                     </div>
+               
+              
+               
+            </i>
+        </div>
+      
+        <p class="message"> vous voulez imprimer document avec header, obien non? </p>
+       
+        </div>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <br><br><br><br><br><br>
+        <a  class="main-btn" routerLink="/infofacture/inforegl" style="float: left; background-color: rgb(255, 152, 152);" *ngIf=" type_document!='demande_prix'">Precedent</a>
+        <a  class="main-btn" routerLink="/infofacture/infoProduit" style="float: left; background-color: rgb(255, 152, 152);" *ngIf=" type_document=='demande_prix'">Precedent</a>
+
+        <!--  -->
+</fieldset>
+
+</div></div></div></div></body>

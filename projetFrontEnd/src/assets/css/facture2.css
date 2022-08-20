@@ -1,0 +1,159 @@
+/* ****************************************** */
+table{
+    width: 100%;
+}
+
+/* ****************************************** */
+.d1{
+    line-height:35px ; font-size: 12px; line-height : 1;float: left;
+}
+.th1{
+    text-align:center; background-color:rgb(235, 233, 233); height: 35px; 
+}
+.tvatd{
+    border-bottom: 0px solid red
+}
+.tvath{
+    text-align:right ;
+}
+.th2{
+    text-align: end;
+}
+.trtd{
+    border-top:1pt solid black;
+    border-bottom:1pt solid black;
+    border-left:1pt solid black;
+}
+.img-fluid{
+    width:180px;height:80px
+}
+#divLogo1_1{
+    text-align: center;margin-top: 35px;
+}
+#content1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+
+  
+}
+.mm{
+    width: 90%; 
+    margin: auto;
+  
+   border: 2px solid rgb(0, 0, 0);
+   padding: 5px;
+   height: 100%;
+}
+.imgandinfo{
+    float: left;
+}
+
+.headerFacture1 th { 
+    border-top:1pt solid black;
+    border-bottom:1pt solid black;
+    border-left:1pt solid black;
+}
+.headerFacture1 th:nth-last-child(1) { 
+    border-right:1pt solid black;
+}
+.bodyFacture1 td { 
+    padding-right: 2px;
+    padding-left: 2px;
+    border-left:1pt solid black;
+}
+.bodyFacture1 td:nth-last-child(1){
+    border-right:1pt solid black;
+}
+.tbody_ligne1 td{
+    border-left:1pt solid black;
+    border-bottom:1pt solid black;
+}
+.tbody_ligne1 td:nth-last-child(1){
+    border-right:1pt solid black;
+}
+.htFacture1 th,.tvaFacture1 th,.ttcFacture1 th{
+    padding: 3px;
+    border-bottom : 1pt solid black;
+    border-left : 1pt solid black;
+}
+.htFacture1 th:nth-last-child(1),.tvaFacture1 th:nth-last-child(1),.ttcFacture1 th:nth-last-child(1){
+    border-right : 1pt solid black;
+}
+
+/* *************************** */
+
+
+#contenu table{
+    border-color: black;
+}
+/* *************************** */
+
+#content{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:12px;
+}
+.headerFacture { 
+    font-size:8px ;
+    /* background-color: yellow; */
+}
+.headerFacture th { 
+    border-top:1pt solid black;
+    border-bottom:1pt solid black;
+    border-left:1pt solid black;
+}
+.headerFacture th:nth-last-child(1) { 
+    border-right:1pt solid black;
+}
+.bodyFacture td { 
+    padding-right: 2px;
+    padding-left: 2px;
+    border-left:1pt solid black;
+}
+.bodyFacture td:nth-last-child(1){
+    border-right:1pt solid black;
+}
+.tbody_ligne td{
+    border-left:1pt solid black;
+    border-bottom:1pt solid black;
+}
+.tbody_ligne td:nth-last-child(1){
+    border-right:1pt solid black;
+}
+.htFacture th,.tvaFacture th,.ttcFacture th{
+    padding: 3px;
+    border-bottom : 1pt solid black;
+    border-left : 1pt solid black;
+}
+.htFacture th:nth-last-child(1),.tvaFacture th:nth-last-child(1),.ttcFacture th:nth-last-child(1){
+    border-right : 1pt solid black;
+}
+
+.tbody_ligne1{
+    height: 452px;
+}
+.img{
+    border-radius: 50%; width: 60%;float: left;
+}
+.addimg{
+    float: left; width: 60%;
+}
+@media print {
+    * { -webkit-print-color-adjust: exact; }
+    html { background: none; padding: 0; }
+    body { box-shadow: none; margin: 0; }
+    span:empty { display: none; }
+    .add, .cut { display: none; }
+}
+
+@page { margin: 0; }
+.table1 { font-size: 75%; table-layout: fixed; width: 100%; }
+.table1 { border-collapse: separate; border-spacing: 2px; }
+.th1, .td1 { border-width: 1px; padding: 0.5em; position: relative; text-align: left; }
+.th1, .td1 { border-radius: 0.25em; border-style: solid; }
+.th1 { background: #EEE; border-color: #BBB; }
+.td1 { border-color: #DDD; }
+/* ************************************* */

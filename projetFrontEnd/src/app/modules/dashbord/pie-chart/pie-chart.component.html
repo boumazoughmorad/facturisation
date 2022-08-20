@@ -1,0 +1,17 @@
+<div #ContainerRef class="card-body">
+
+    <div class="d-flex justify-content-center mb-4" >
+        <h2 class="title" >Les top produits a quantité disponible dans le stock</h2>
+    </div>
+
+    <ngx-charts-pie-chart
+        [view]="[ContainerRef.offsetWidth, 400]"
+        [scheme]="colorScheme"
+        [results]="single"
+        [gradient]="gradient"
+        [legend]="showLegend"
+        [labels]="showLabels"
+        [doughnut]="isDoughnut"
+    >
+    </ngx-charts-pie-chart>
+</div>

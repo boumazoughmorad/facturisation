@@ -1,0 +1,85 @@
+
+ 
+      
+      
+       
+        <body classname="snippet-body">
+            <div class="container-fluid px-1 py-5 mx-auto">
+    
+    
+    <div class="card b-0 " >
+
+    <!-- <p class="desc">Fill out the form or call <span class="yellow-text">123 456 7891</span><br>to start protecting your business today!</p> -->
+    
+    
+        
+    
+    <br><br><br>
+
+    <fieldset class="show">
+    <div class="form-card">
+    <h5 class="sub-heading mb-4">Produit(s) * </h5>
+    
+    
+    <div class="form-group"  >
+    
+        
+        <label class="form-control-label" >Nom du Categorie * :</label>
+        <select class="form-select" aria-label="Default select example form-control" (change)="valeur($event)"  class="form-control">
+            
+            <option *ngFor="let categories of categories" value="{{categories.id}}" selected>{{categories.Nom_categorie}}</option> 
+        </select>
+         </div>
+         <div class="form-group" >
+            <label class="form-control-label" >Nom du produit * :</label>
+            <input type="text" id="fname" name="fname" placeholder=""  class="form-control"   (change)="valeurNom_produit($event)" >
+        </div>
+  
+        <div class="form-group" >
+            <label class="form-control-label">Reference * :</label>
+            <!-- <ng-container *ngIf="produit && produit.reference "> -->
+
+            <input type="text"  placeholder="" class="form-control"  (change)="valeurNom_ref($event)">
+        </div>
+        <div class="form-group" >
+            <label class="form-control-label">Taux TVA * :</label>
+            <!-- <ng-container *ngIf="produit && produit.reference "> -->
+            <input type="text"  placeholder="" class="form-control" (change)="valeurNom_TVA($event)" >
+        </div>
+    
+        <!-- <div class="form-group" >
+            <label class="form-control-label">prix unitaire TTC * :</label>
+            <input type="text" placeholder="" class="form-control" (change)="valeurNom_HT($event)" >
+        </div> -->
+      
+    <div class="form-group">
+        <label class="form-control-label">PU_HT  * :</label>
+        <input type="text" id="mob" name="mob" placeholder="" class="form-control"  (change)="valeurNom_HT($event)">
+    </div>
+    <div class="form-group">
+        
+        <label class="form-control-label">Quantité  * :</label>
+        <input type="text" id="mob" name="mob" placeholder="" class="form-control" (change)="valeurNom_qte($event)">
+    </div>
+  
+    
+    
+    
+    <!-- <mdb-icon fas icon="plus-circle"></mdb-icon> -->
+    
+    <!-- <a  class="main-btn" routerLink="/etape_fin">Next</a> -->
+    <!-- <b><a routerLink="/infoProduit/liste"><i class="fas fa-plus" style="float:right; zoom: 200%;" (click)="valid()">Plus</i></a></b> -->
+    
+    <button  class="main-btn"  style="float: right;"><i (click)="add()">add</i></button>
+ 
+    
+ 
+    
+    </div>
+    
+    </fieldset>
+    </div>
+    
+    
+    </div>
+    </body>

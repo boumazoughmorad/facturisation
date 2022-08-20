@@ -1,0 +1,155 @@
+
+<br><br><br><br><br>
+<div class="col-12 grid-margin" >
+  <div class="card">
+    <div class="card-body">
+   
+      <div class="table-responsive">
+          <ul class="navbar-nav navbar-nav-right">
+              <li class="nav-item dropdown d-none d-lg-block">
+                <a class="nav-link btn btn-success create-new-button" id="createbuttonDropdown" data-toggle="dropdown" aria-expanded="false" routerLink="/welcome/infoProduit/ajouterProduit" >+ ajouter Produit</a>
+               
+              </li>
+       
+            
+          
+            </ul>
+        <table class="table" id="my_table">
+          <thead>
+            <tr>
+             
+          
+              <th> Categorie </th>
+              <th> Nom du produit </th>
+              <th> Reference</th>
+        
+           
+              <th> Status </th>
+            </tr>
+          </thead>
+          <tbody >
+            <tr *ngFor="let data of produits" >
+              <td  >
+          <i *ngFor="let categorie of categories"><i *ngIf="categorie.id==data.id_categorier">{{categorie.Nom_categorie}}</i>  </i>  
+          </td>
+              <td>{{data.Nom_produit}}</td>
+              <td >{{data.reference}}</td>
+              <td  > 
+              <div *ngIf="data.deleted_at!=null" style="color: red; text-align: center;"><a href="welcome/infoProduit/liste" (click)="annulersupp(data.id)">annuler supprimer</a></div>
+             <div *ngIf="data.deleted_at==null">
+              <a class="remove mdi mdi-close-box" style="color: red;"   (click)="delet(data.id)" ></a><i class="mdi mdi-border-color" routerLink="/welcome/infoclient/update/" style="color:blue;" *ngIf="data.deleted_at==null"></i>
+   
+             </div>
+             <!-- <button class="btn btn-success btn-rounded btn-fw" style="color: red;float: right;" (click)="imprimerfour(data.id)">imprimer</button> -->
+<img src="assets/iconPDF.png" width="2%" height="2%"  style="float: right;" (click)="imprimerfour(data.id)">
+            
+            </td>
+              <!-- <td> 
+                  <button  class="btn btn-outline-warning" (click)="supp()">supprimer<i class="fa fa-trash"
+                  aria-hidden="true"></i></button></td> -->
+          </tr>
+           
+          
+        
+          
+          </tbody>
+        </table>
+<button (click)="print()" class="btn btn-success btn-rounded btn-fw">print</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!--  -->
+<!-- <div class="" >
+    <div class="card-body card-prix">
+     
+  
+        <button class="btn btn-danger btn-rounded btn-fw" style="float: left;">ajouter produit</button>
+  
+      
+     <br><br>
+     <br><br><br><br>
+      <div>
+        <table class="table table-striped" style="border:2px;width: 100%; border-color: black; background-color: aliceblue;">
+  
+    
+           <thead>
+            <td style="border-top:1pt solid black;padding-right: 2px;
+            padding-left: 2px;
+            border-left:1pt solid black;"><b style="color: rgb(182, 26, 26);">Categorie</b></td>
+            <td style="border-top:1pt solid black;padding-right: 2px;
+            padding-left: 2px;
+            border-left:1pt solid black;"><b style="color: rgb(182, 26, 26);">Nom du produit</b></td>
+            <td style="border-top:1pt solid black;padding-right: 2px;
+            padding-left: 2px;
+            border-left:1pt solid black;"><b style="color: rgb(182, 26, 26);">Reference</b></td>
+    
+            <td style="border-top:1pt solid black;padding-right: 2px;
+            padding-left: 2px;
+            border-left:1pt solid black;"><b style="color: rgb(182, 26, 26);"> action </b></td>
+           </thead>
+           <tbody>
+            <tr *ngFor="let data of produits" style="border-color: black; line-height : 4.25;">
+                <td style="border-top:1pt solid black;padding-right: 2px;
+                padding-left: 2px;
+                border-left:1pt solid black;" >
+            <i *ngFor="let categorie of categories"><i *ngIf="categorie.id==data.id_categorier">{{categorie.Nom_categorie}}</i>  </i>  
+            </td>
+                <td style="border-top:1pt solid black; padding-right: 2px;
+                padding-left: 2px;
+                border-left:1pt solid black;padding-right: 2px;
+    padding-left: 2px;
+    border-left:1pt solid black;">{{data.Nom_produit}}</td>
+                <td style="border-top:1pt solid black;padding-right: 2px;
+                padding-left: 2px;
+                border-left:1pt solid black;">{{data.reference}}</td>
+                <td style="border-top:1pt solid black;padding-right: 2px;
+                padding-left: 2px;
+                border-left:1pt solid black;" > 
+                <div *ngIf="data.deleted_at!=null" style="color: red; text-align: center;"><a href="welcome/infoProduit/liste" (click)="annulersupp(data.id)">annuler supprimer</a></div>
+               <div *ngIf="data.deleted_at==null">
+                <a class="remove mdi mdi-close-box" style="color: red;"   (click)="delet(data.id)" ></a><i class="mdi mdi-border-color" routerLink="/welcome/infoclient/update/" style="float: right;color:blue;" *ngIf="data.deleted_at==null"></i>
+     
+               </div></td>
+                <!-- <td> 
+                    <button  class="btn btn-outline-warning" (click)="supp()">supprimer<i class="fa fa-trash"
+                    aria-hidden="true"></i></button></td> -->
+            <!-- </tr>
+          
+           </tbody>
+        
+        </table>
+  
+      </div>
+    </div>
+  </div> --> 
+  <!-- <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table> -->

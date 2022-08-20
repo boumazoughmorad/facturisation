@@ -1,0 +1,38 @@
+<h2>Angular QR Code Customization Example</h2>
+
+<div>
+  <qr-code [value]="values" [size]="width" [level]="level"></qr-code>
+</div>
+
+<label>
+  Change name: <input [(ngModel)]="values" placeholder="name" />
+</label>
+
+<br />
+<br />
+<br />
+
+<strong>Change to</strong>:
+<button (click)="qrData('Monica Rambeau')">Monica Rambeau</button>
+<button (click)="qrData('Nosy Neighbor')">Nosy Neighbor</button>
+<button (click)="qrData('Mephisto')"> Mephisto</button>
+
+<br />
+<br />
+<br />
+
+<strong>Change Width</strong>:
+<button (click)="qrWidth(550)">550</button>
+<button (click)="qrWidth(450)">450</button>
+<button (click)="qrWidth(350)">350</button>
+<button (click)="qrWidth(250)">250</button>
+
+<br />
+<br />
+<br />
+
+<strong>Update Level</strong>:
+<button (click)="qrLevel('L')">L</button>
+<button (click)="qrLevel('M')">M</button>
+<button (click)="qrLevel('Q')">Q</button>
+<button (click)="qrLevel('H')">H</button>

@@ -1,0 +1,184 @@
+<div id="content1" class="tablewidth my-4 " style="    font-family: Arial, Helvetica, sans-serif;
+margin-left: auto;
+margin-right: auto;
+width:100%;">
+    <div class="align-center">
+        <div class="card border border-white" >
+            <div class="card-body">
+                <div id="contenu1" class="text-black">
+                  
+
+                    <table class="row">
+                        <td class="col-4 imgandinfo" style="line-height:35px ; font-size: 12px; line-height : 1;">
+                           
+                                <address class="addimg" style="float: left; width: 20%;" *ngIf="log_user!=null">
+                                    <img class="img" src="http://127.0.0.1:8000/storage/{{log_user}}" style="border-radius: 50%; width: 60%;float: left;">
+                                 </address> 
+                                 <br><br><br><br><br><br><br><br><br><br><br>
+                    <address class="atiadd" >
+                        <p *ngIf="nom_socieite!=null" style="font-weight: bold;">Nom Fournisseur : {{nom_socieite}}</p>
+                        <p *ngIf="Adresse!=null" style="font-weight: normal;"> Adresse : {{Adresse}}</p>
+                        <p *ngIf="capitale!=null" style="font-weight: normal;">capitale : {{capitale}}</p>
+                        <p *ngIf="CNSS!=null" style="font-weight: normal;">CNSS : {{CNSS}}</p>
+                        <p *ngIf="ICE_user!=null" style="font-weight: normal;">ICE : {{ICE_user}}</p>
+                        
+                        <p *ngIf="email!=null" style="font-weight: normal;">E-Mail : {{email}}</p>
+                        <p *ngIf="TEL1!=null" style="font-weight: normal;">TEL 1 : {{TEL1}}</p>
+                        <p *ngIf="TEL2!=null" style="font-weight: normal;">TEL 2 : {{TEL2}}</p>
+                        <p *ngIf="FIX!=null" style="font-weight: normal;">FIX : {{FIX}}</p>
+                        <p *ngIf="TP!=null" style="font-weight: normal;">TP : {{TP}}</p>
+                        <p *ngIf="TF!=null" style="font-weight: normal;">TF : {{TF}}</p>
+                        <p *ngIf="sit_web!=null" style="font-weight: normal;">web : {{sit_web}}</p>
+                    </address>
+                </td>
+                <!-- style="background-image:url('assets/img/itic.jpg') ;" -->
+               <td class="col-2 d1" >
+             
+                    
+                
+               </td>
+                        <td class="col-4 d1" style="line-height:35px ;float: right; font-size: 12px; line-height : 1;">
+                    <qr-code [value]="'https://itic-solution.com/'"></qr-code>
+
+                            <p *ngIf="ice_client!=null" > Code client: {{ice_client}}</p>
+                            <!-- {{ice_client}} -->
+                        
+                             <p *ngIf="nom_client!=null">Nom Client : {{nom_client}}</p>
+                       
+                           <p *ngIf="tele_client!=null"> Télèphone : {{tele_client}}</p>
+                        
+                             <p *ngIf="add_client!=null"> Adresse : {{add_client}}</p>
+                         
+					<p *ngIf="inAuter!=null"> {{inAuter}}: {{valAuter}}</p>
+                    <p *ngIf="date_f!=null"> date de facture : {{date_f}}</p>
+                    <p *ngIf="date_ech!=null"> date de échéance : {{date_ech}}</p>
+
+                        </td> 
+                    </table>
+    <!-- background-image: url("assets/img/itic.jpg"); -->
+    <table >
+                        <thead>
+                            <tr ></tr>
+                            <tr>
+                                   <th colspan="7" class="th1"
+                                    style="text-align:center; background-color:rgb(235, 233, 233); height: 35px; ">
+                                    <p *ngIf="numFac!=null && type_document=='facture'">  Facture N° : F{{numFac}}</p> 
+                                    <p *ngIf="numFac!=null && type_document=='devise'">  Devis N° : D{{numFac}}</p>
+                                    <p *ngIf="numFac!=null && type_document=='bon_commande'">  Bon de commande N° : BC{{numFac}}</p> 
+                                    <p *ngIf="numFac!=null && type_document=='avoire'">  Avoire N° : A{{numFac}}</p>
+                                    <p *ngIf="numFac!=null && type_document=='bon_livraison'">  Bon livraison N° : BL{{numFac}}</p> 
+                                    <p *ngIf="numFac!=null && type_document=='demande_prix'">  Demande de Prix N° : DP{{numFac}}</p> 
+                                    <p *ngIf="numFac!=null && type_document=='bon_achat'">  Bon Achat N° : BA{{numFac}}</p>
+                                
+                                
+                                </th>
+
+                               
+                            </tr><br><br><br>
+                            <tr ></tr>
+
+                            <tr >
+                                
+                                <th class="th2" colspan="7" style="text-align: end;">
+                                   <p>Montants exprimés en Dirham</p> 
+                                </th>
+                            </tr>
+                            <tr class="headerFacture1" style="background-image:url('assets/img/itic.jpg') ;">
+                                <th class="text-center">Nom Produit.</th>
+                                <th class="text-center">Réf.</th>
+
+                                <!-- <th  class="text-center">Désignation</th> -->
+                                <th class="text-center">Qté</th>
+                                <th  class="text-center" *ngIf="type_document!='demande_prix'">PU. HT</th>
+                                <th class="text-center" *ngIf="type_document!='demande_prix'">TVA</th>
+                                <!-- <th  class="text-center">MT. HT</th>
+                                <th  class="text-center">MT. TTC</th> -->
+                                <th  class="text-center" *ngIf="type_document!='demande_prix'">TOTAL HT</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                         
+                            <tr class="bodyFacture1 morad " id="tbody_ligne1" *ngFor="let data of p">
+                                <td class="text-center trtd" style="    border-top:1pt solid black;
+                                border-bottom:1pt solid black;text-align: center;
+                                border-left:1pt solid black;"><span >{{data.Nom_produit}}</span></td>
+                                <td class="text-center trtd" style="    border-top:1pt solid black;
+                                border-bottom:1pt solid black;text-align: center;
+                                border-left:1pt solid black;"><span >{{data.reference}}</span></td>
+                                <td class="text-center trtd" style="    border-top:1pt solid black;
+                                border-bottom:1pt solid black;text-align: center;
+                                border-left:1pt solid black;" *ngIf="type_document!='demande_prix'"><span >{{data.Taux_TVA}}</span></td>
+                                <td class="text-center trtd" style="    border-top:1pt solid black;
+                                border-bottom:1pt solid black;text-align: center;
+                                border-left:1pt solid black;" *ngIf="type_document!='demande_prix'"> {{data.PU_HT}}</td>
+                                <td class="text-center trtd" style="    border-top:1pt solid black;
+                                border-bottom:1pt solid black;text-align: center;
+                                border-left:1pt solid black;">{{data.quantity}}</td>
+                                <td class="text-center trtd" style="    border-top:1pt solid black;
+                                border-bottom:1pt solid black;text-align: center;
+                                border-left:1pt solid black;" *ngIf="type_document!='demande_prix'">{{data.quantity * data.PU_HT }}</td>
+                            </tr>
+                            <tr class="htFacture1" *ngIf="type_document!='demande_prix'">
+                                <td colspan="4" style="border-bottom: none !important;" ></td>
+                                <!-- <th colspan="2" style="background-image:url('assets/img/itic.jpg') ;"></th> -->
+                                <th colspan="1" class="text-left;background-image:url('assets/img/itic.jpg') ; "><p style="background-image:url('assets/img/itic.jpg') ;"><i>Total HT</i></p> </th>
+                                <th colspan="1" style="text-align:right ;"> 
+                                    <!-- {{totaleMontantHt | number :'1.2-2'}} -->
+                                    {{totalHt | number :'1.2-2'}}
+                                </th>
+                            </tr>
+                            <tr class="tvaFacture1" *ngIf="type_document!='demande_prix'">
+                                <td class="tvatd" colspan="4" style="border-bottom: 0px solid red;"></td>
+                                <th colspan="1" class="text-left;background-image:url('assets/img/itic.jpg') ;"><p style="background-image:url('assets/img/itic.jpg') ;"><i>Total TVA </i></p></th>
+                                <th colspan="1" class="tvath" style="text-align:right ;">
+                                     <!-- {{totaleTauxTva | number :'1.2-2'}}  -->
+                                     {{totaltva | number :'1.2-2'}}
+                                    </th>
+                            </tr>
+                            <tr class="ttcFacture1" *ngIf="type_document!='demande_prix'">
+                                <td colspan="4" class="tvatd" style="border-bottom: none !important;"></td>
+                                <th colspan="1" class="text-left;background-image:url('assets/img/itic.jpg') ;"><p style="background-image:url('assets/img/itic.jpg') ;"><i>Total TTC </i></p></th>
+                                <th colspan="1" class="tvath" style="text-align:right ;"> 
+                                    <!-- {{totaleMontantTtc | number :'1.2-2'}}  -->
+                                    {{(totaltva * totalHt)/100 | number :'1.2-2'}}
+                                </th>
+                            </tr>
+                           
+                        </tbody>
+                    
+                    </table>
+                    <br><br>
+                    <p style="font-weight: bold;width: 40%;float: left;" >Vertesement déja effictués</p>
+        <br><br>
+                  <table class="table1" style="width: 40%; float: left;" *ngIf=" type_document!='demande_prix'">
+                    <tr >
+                        <th class="th1">
+                            Reglement
+                        </th >
+                        <th class="th1">
+                            Monant
+                        </th >
+                        <th class="th1">
+                            Type
+                        </th >
+                    </tr>
+                
+                    <tr>
+                        <td class="td1">
+                            {{reglement}}
+                        </td>
+                        <td class="td1">
+                            {{(totaltva * totalHt)/100}}
+                        </td >
+                        <td class="td1">
+                            {{Type_payee}}
+                        </td >
+                    </tr>
+                  </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

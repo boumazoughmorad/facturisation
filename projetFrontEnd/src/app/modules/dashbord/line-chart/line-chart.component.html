@@ -1,0 +1,28 @@
+<div #ContainerRef class="card-body">
+
+    <div class="d-flex justify-content-center mb-5" >
+        <h2 class="title" ></h2>
+    </div>
+        
+    <ngx-charts-line-chart
+
+        [view]="[ContainerRef.offsetWidth, 400]"
+        [scheme]="colorScheme"
+        [legend]="legend"
+        [legendPosition]="legendPosition"
+        [showXAxisLabel]="showXAxisLabel"
+        [showYAxisLabel]="showYAxisLabel"
+        [xAxis]="xAxis"
+        [yAxis]="yAxis"
+        [xAxisLabel]="xAxisLabel"
+        [yAxisLabel]="yAxisLabel"
+        [timeline]="timeline"
+        [results]="multi"
+        [roundDomains]="roundDomains"
+        [legendTitle]="legendTitle"
+        
+        >
+    
+    </ngx-charts-line-chart>
+
+</div>

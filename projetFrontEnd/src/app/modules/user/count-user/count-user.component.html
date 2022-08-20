@@ -1,0 +1,106 @@
+
+         
+       
+      
+            <br><br>
+            
+        <div class=" grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+             
+                  <p class="card-description"> votre information </p>
+                  <!-- <form class="forms-sample" > -->
+                    <div class="form-group">
+                      <label for="exampleInputName1">Nom</label>
+                      <ng-container *ngIf="info && info.nom_socieite  ">
+
+                      <input type="text" class="form-control"  name="nom" placeholder="{{info.nom_socieite}}..."  (change)=" valeur_nom_s($event)"></ng-container>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail3">Email address</label>
+                      <ng-container *ngIf="info && info.email  ">
+
+                      <input type="email" class="form-control" id="exampleInputEmail3" placeholder="{{info.email}}"  (change)=" valeur_ice($event)"></ng-container>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputCity1">Password</label>
+                      
+
+                      <input type="password" class="form-control"  placeholder="********" >
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputCity1">ICE</label>
+                      <ng-container *ngIf="info && info.ICE_user  ">
+                      <input type="text" class="form-control"  placeholder="{{info.ICE_user}}" ></ng-container>
+                    </div>
+                  
+                    <div class="form-group">
+                      <label>image</label>
+
+                      <input type="file" class="form-control" name="image_path" (change)="onFileChange($event)">
+                
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputCity1">TF</label>
+                      <ng-container *ngIf="info && info.TF  ">
+                      
+                      <input type="text" class="form-control"  placeholder="{{info.TF}}" ></ng-container>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputCity1">TP</label>
+                      <ng-container *ngIf="info && info.TP ">
+
+                      <input type="text" class="form-control"  placeholder="{{info.TP}}" ></ng-container>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputCity1">capitale</label>
+                      <ng-container *ngIf="info && info.capitale  ">
+
+                      <input type="text" class="form-control"  placeholder="{{info.capitale}}" ></ng-container>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputCity1">CNSS</label>
+                      <ng-container *ngIf="info && info.CNSS  ">
+
+                      <input type="text" class="form-control"  placeholder="{{info.CNSS}}" ></ng-container>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputCity1">Telephone 1</label>
+                      <ng-container *ngIf="info && info.TEL1  ">
+
+                      <input type="text" class="form-control"  placeholder="{{info.TEL1}}" ></ng-container>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputCity1">Telephone 2</label>
+                      <ng-container *ngIf="info && info.TEL2  ">
+
+                      <input type="text" class="form-control"  placeholder="{{info.TEL2}}" ></ng-container>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputCity1">FIXE</label>
+                      <ng-container *ngIf="info && info.FIX  ">
+
+                      <input type="text" class="form-control"  placeholder="{{info.FIX}}" ></ng-container>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputCity1">addresse</label>
+                      <ng-container *ngIf="info && info.Adresse  ">
+
+                      <input type="text" class="form-control"  placeholder="{{info.Adresse}}" ></ng-container>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputCity1">site web</label>
+                      <ng-container *ngIf="info && info.sit_web  ">
+
+                      <input type="text" class="form-control"  placeholder="{{info.sit_web}}" ></ng-container>
+                    </div>
+             
+                    <!-- <button type="submit" class="btn btn-primary mr-2" (Click)="updateuser()">Submit</button> -->
+                    
+                    <input type="submit" class="btn btn-primary mr-2" (click)="updateuser()" value="Submit">
+                    <!-- <button class="btn btn-dark">Cancel</button> -->
+                  <!-- </form> -->
+                </div>
+              </div>
+            </div>  
+      

@@ -1,0 +1,80 @@
+<br><br><br><br>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"   style="width: 100%;">
++ ajouter Role
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ajouter Role</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+        
+                <label class="form-control-label">Nom Role  * :</label>
+                <input type="text"  placeholder="" class="form-control" (change)="valeurNom_Role($event)">
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="close()">Close</button>
+          <button type="button" class="btn btn-primary" (click)="save()">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="card">
+    <button class="nav-link btn btn-success create-new-button"  (click)="print()" data-toggle="dropdown" aria-expanded="false"  style="width: 100%;">imprimer</button>
+<!-- <button  class="nav-link btn btn-success create-new-button">print</button> -->
+   
+
+<div class="card-body">
+ 
+  <div class="table-responsive">
+  
+ 
+    <table class="table" id="my_table">
+      <thead>
+        <tr>
+         
+      
+          <th> Nom Role </th>
+          <th> Status </th>
+        </tr>
+      </thead>
+      <tbody >
+        <tr *ngFor="let data of roles" >
+        
+          <td>{{data.Role}}</td>
+          
+          <td  > 
+          <div *ngIf="data.deleted_at!=null" style="color: red; text-align: center;"><a href="/welcome/Roles/listeRoles" (click)="annulersupp(data.id)">annuler supprimer</a>
+        
+        </div>
+         <div *ngIf="data.deleted_at==null">
+          <a class="remove mdi mdi-close-box" style="color: red;"   (click)="delet(data.id)" ></a><i class="mdi mdi-border-color" routerLink="/welcome/info_categorier/update/" style="color:blue;" *ngIf="data.deleted_at==null"></i>
+
+         </div>
+         
+<img src="assets/iconPDF.png" width="2%" height="2%" style="float:right;" (click)="imprimerfour(data.id)">
+
+         <!-- <button class="btn btn-success btn-rounded btn-fw" style="color: red;float: right;" >imprimer</button> -->
+        
+        </td>
+          <!-- <td> 
+              <button  class="btn btn-outline-warning" (click)="supp()">supprimer<i class="fa fa-trash"
+              aria-hidden="true"></i></button></td>  -->
+      </tr>
+       
+      
+    
+      
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>

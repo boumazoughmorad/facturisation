@@ -1,0 +1,19 @@
+<div #ContainerRef class="card-body">
+
+    <div class="d-flex justify-content-center" >
+        <h2 class="title" >nomber user dans dernière quatre mointh</h2>
+    </div>
+
+    <ngx-charts-pie-chart 
+        [view]="[ContainerRef.offsetWidth, 280]"
+        [scheme]="colorScheme"
+        [results]="single"
+        [gradient]="gradient"
+        [legend]="showLegend"
+        [labels]="showLabels"
+        [doughnut]="isDoughnut"
+        [legendTitle]="legendTitle"
+    >
+    </ngx-charts-pie-chart>
+</div>
+<!-- <app-dashbord></app-dashbord> -->

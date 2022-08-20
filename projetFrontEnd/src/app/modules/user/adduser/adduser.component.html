@@ -1,0 +1,87 @@
+
+<div class="card b-0">
+<h3 class="heading">Remplir ce formillier</h3>
+<!-- <p class="desc">Fill out the form or call <span class="yellow-text">123 456 7891</span><br>to start protecting your business today!</p> -->
+
+
+
+<form>
+<fieldset class="show">
+<div class="form-card">
+<h5 class="sub-heading">User *</h5>
+<address style=" width: 20%;" *ngIf="log_user!=null && n!=0">
+
+   <img src="http://127.0.0.1:8000/storage/{{log_user}}" style="border-radius: 50%;width: 30%;">
+</address>
+<div *ngIf="log_user!=null && n!=0">
+   <br><br><br><br><br>
+</div>
+
+<div >
+    <label class="form-control-label"> Logo * :</label>
+    <input type="file"  name="logo_user" (change)="valeur_img($event)">
+    </div>
+<div class="form-group">
+<label class="form-control-label"> Nom de société * :</label>
+
+<input type="text" id="nom_client" name="nom_client" placeholder=""  class="form-control" (change)=" valeur_nom_s($event)" value="{{nom_socieite}}">
+</div>
+<div class="form-group">
+<label class="form-control-label">ICE de société* :</label>
+<input type="text" id="fname" name="ice" placeholder=""  class="form-control" (change)=" valeur_ice($event)" value="{{ICE_user}}">
+</div>
+<div class="form-group">
+<label class="form-control-label">TF * :</label>
+<input type="text" id="fname" name="addres" placeholder=""  class="form-control" (change)="valeur_tf($event)" value="{{TF}}">
+</div>
+<div class="form-group">
+<label class="form-control-label">CNSS * :</label>
+<input type="text" id="fname" name="num" placeholder=""  class="form-control" (change)=" valeur_cnss($event)" value="{{CNSS}}">
+</div>
+<div class="form-group">
+    <label class="form-control-label">TP * :</label>
+    <input type="text" id="fname" name="num" placeholder=""  class="form-control" (change)="valeur_tp($event)" value="{{TP}}">
+ </div>
+ 
+ <div class="form-group">
+    <label class="form-control-label">capital * :</label>
+    <input type="text" id="fname" name="num" placeholder=""  class="form-control" (change)="valeur_capitale($event)" value="{{capitale}}">
+ </div>
+ <div class="form-group">
+    <label class="form-control-label">Adress * :</label>
+    <input type="text" id="fname" name="num" placeholder=""  class="form-control" (change)="valeur_add($event)" value="{{Adresse}}">
+ </div>
+ <div class="form-group">
+    <label class="form-control-label">Telephone 1 * :</label>
+    <input type="text" id="fname" name="num" placeholder=""  class="form-control" (change)="valeur_tel1($event)" value="{{TEL1}}">
+ </div>
+ <div class="form-group">
+    <label class="form-control-label">Telephone 2 * :</label>
+    <input type="text" id="fname" name="num" placeholder=""  class="form-control" (change)="valeur_tel2($event)" value="{{TEL2}}">
+ </div>
+ <div class="form-group">
+    <label class="form-control-label">FIX * :</label>
+    <input type="text" id="fname" name="num" placeholder=""  class="form-control" (change)="valeur_fix($event)" value="{{FIX}}">
+ </div>
+ <div class="form-group">
+    <label class="form-control-label">site wib * :</label>
+    <input type="text" id="fname" name="num" placeholder=""  class="form-control" (change)="valeur_sit($event)" value="{{sit_web}}">
+ </div>
+ <div class="form-group">
+    <label class="form-control-label">E-mail * :</label>
+    <input type="text" id="fname" name="num" placeholder=""  class="form-control" (change)="valeur_email($event)" value="{{email}}">
+ </div>
+ <div class="form-group" *ngIf="n!=0">
+   <label class="form-control-label">password * :</label>
+   <input type="password"  name="password" placeholder=""  class="form-control" (change)="valeur_pass($event)" >
+</div>
+</div>
+</fieldset> 
+<a  class="main-btn" routerLink="/imprimer" style="float: right;" *ngIf="n==0">Next</a>
+<a  class="main-btn"  style="float: right; background-color: deeppink;" *ngIf="n!=0" (click)="crees()">crées</a>
+
+</form>
+</div>
+
+
+

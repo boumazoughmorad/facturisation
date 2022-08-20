@@ -1,0 +1,97 @@
+
+<div class="card b-0">
+  
+    <!-- <p class="desc">Fill out the form or call <span class="yellow-text">123 456 7891</span><br>to start protecting your business today!</p> -->
+    
+    <br><br><br><br>
+    
+    <form>
+    <fieldset class="show">
+        <h3 style="color: red;">{{error}}</h3>
+    <div class="form-card">
+        <div class="form-group">
+            Role :
+            <select (change)="valeur_Role($event)">
+                <option>----------</option>
+<hr>                <option *ngFor="let Role of Role" [value]="Role.id"> {{Role.Role}}</option>
+            </select>
+            <!-- <mat-form-field appearance="fill">
+                <mat-label>Role</mat-label>
+                <mat-select>
+                  <mat-option *ngFor="let Role of Role" [value]="Role.id">
+                    {{Role.Role}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field> -->
+        </div>
+  
+    
+    <div >
+        <label class="form-control-label"> Logo * :</label>
+        <input type="file"  name="logo_user" (change)="valeur_img($event)">
+        </div>
+    <div class="form-group">
+    <label class="form-control-label"> Nom de société * :</label>
+    
+    <input type="text" id="nom_client" name="nom_client" placeholder=""  class="form-control" (change)=" valeur_nom_s($event)" >
+    </div>
+    <div class="form-group">
+    <label class="form-control-label">ICE de société* :</label>
+    <input type="text" name="ice" placeholder=""  class="form-control" (change)=" valeur_ice($event)" >
+    </div>
+    <div class="form-group">
+    <label class="form-control-label">TF * :</label>
+    <input type="text" name="addres" placeholder=""  class="form-control" (change)="valeur_tf($event)" >
+    </div>
+    <div class="form-group">
+    <label class="form-control-label">CNSS * :</label>
+    <input type="text" name="num" placeholder=""  class="form-control" (change)=" valeur_cnss($event)" >
+    </div>
+    <div class="form-group">
+        <label class="form-control-label">TP * :</label>
+        <input type="text" name="num" placeholder=""  class="form-control" (change)="valeur_tp($event)" >
+     </div>
+     
+     <div class="form-group">
+        <label class="form-control-label">capital * :</label>
+        <input type="text" name="num" placeholder=""  class="form-control" (change)="valeur_capitale($event)" >
+     </div>
+     <div class="form-group">
+        <label class="form-control-label">Adress * :</label>
+        <input type="text" name="num" placeholder=""  class="form-control" (change)="valeur_add($event)" >
+     </div>
+     <div class="form-group">
+        <label class="form-control-label">Telephone 1 * :</label>
+        <input type="text" name="num" placeholder=""  class="form-control" (change)="valeur_tel1($event)" >
+     </div>
+     <div class="form-group">
+        <label class="form-control-label">Telephone 2 * :</label>
+        <input type="text" name="num" placeholder=""  class="form-control" (change)="valeur_tel2($event)" >
+     </div>
+     <div class="form-group">
+        <label class="form-control-label">FIX * :</label>
+        <input type="text" name="num" placeholder=""  class="form-control" (change)="valeur_fix($event)" >
+     </div>
+     <div class="form-group">
+        <label class="form-control-label">site wib * :</label>
+        <input type="text" name="num" placeholder=""  class="form-control" (change)="valeur_sit($event)" >
+     </div>
+     <div class="form-group">
+        <label class="form-control-label">E-mail * :</label>
+        <input type="text" name="num" placeholder=""  class="form-control" (change)="valeur_email($event)" >
+     </div>
+     <div class="form-group" *ngIf="n!=0">
+       <label class="form-control-label">password * :</label>
+       <input type="password"  name="password" placeholder=""  class="form-control" (change)="valeur_pass($event)" >
+    </div>
+    </div>
+    </fieldset> 
+    <!-- <a  class="main-btn" routerLink="/imprimer" style="float: right;" *ngIf="n==0">Next</a> -->
+    <a  class="main-btn"  style="float: right; background-color: deeppink;" (click)="ajouter()">Ajouter</a>
+    
+    </form>
+    </div>
+    
+    
+    
+    

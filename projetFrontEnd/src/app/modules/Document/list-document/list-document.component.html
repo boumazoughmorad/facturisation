@@ -1,0 +1,86 @@
+<div class="container-fluid page-body-wrapper"  >
+    <!-- partial:partials/_navbar.html -->
+   
+    <!-- partial -->
+    <div class="main-panel" >
+      <div class="content-wrapper" style="background-color:rgb(250, 253, 255);">
+   
+       
+          <div class="col-12 grid-margin" >
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Order Status</h4>
+                <div class="table-responsive">
+                    <ul class="navbar-nav navbar-nav-right">
+                        <li class="nav-item dropdown d-none d-lg-block">
+                          <a class="nav-link btn btn-success create-new-button" id="createbuttonDropdown" data-toggle="dropdown" aria-expanded="false" routerLink="/welcome/choisi" (click)="ajouter()" >+ ajouter document</a>
+                         
+                        </li>
+                 
+                      
+                    
+                      </ul>
+                  <table class="table" >
+                    <thead>
+                      <tr>
+                        <th>
+                          <div class="form-check form-check-muted m-0">
+                            <label class="form-check-label">
+                              <!-- <input type="checkbox" class="form-check-input"> -->
+                            </label>
+                          </div>
+                        </th>
+                    
+                        <th> Numero Facture </th>
+                        <th> Name client </th>
+                        <th> date facture </th>
+                        <th> date echéance </th>
+                     
+                        <th> Status </th>
+                      </tr>
+                    </thead>
+                    <tbody *ngFor="let doc of documents">
+                      <tr  *ngIf="(doc.id_user==idUser || Role=='admin')&& type_doc==doc.Type_document">
+                        <td>
+                          <div class="form-check form-check-muted m-0">
+                            <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                            </label>
+                          </div>
+                        </td>
+                        <td >
+                         
+                          <!-- <img src="assets/dash/images/faces/face1.jpg" alt="image" /> -->
+                          <span class="pl-2">{{doc.Nom_document}}</span>
+                        </td>
+                        <td> {{doc.id_client}} </td>
+                        <td> {{doc.date_document}} </td>
+                        <td> 
+                          <!-- {{doc.date_échéance}} -->
+                         </td>
+                    
+                        <td>
+                          <div class="btn btn-danger btn-fw" (click)="supprimerdocument(doc.id)">supprimer</div>
+                          <!-- <div class="btn btn-danger btn-fw" (click)="imprimer(doc.id)">imprimer</div> -->
+                          <img src="assets/iconPDF.png" width="2%" height="2%"  style="float: right;" (click)="imprimer(doc.id)">
+
+                        </td>
+                      </tr>
+                  
+                     
+                    
+                  
+                    
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+   
+      </div>
+
+    </div>
+    <!-- main-panel ends -->
+  </div>

@@ -1,0 +1,39 @@
+
+<div #ContainerRef class="card-body">
+
+    <div class="d-flex justify-content-center mb-4" >
+        <h2 class="title" >les Top 5 produits</h2>
+    </div>
+        
+    <!-- <ngx-charts-bar-vertical-2d
+        [view]="[ContainerRef.offsetWidth, 400]"
+        [scheme]="colorScheme"
+        [results]="multi"
+        [gradient]="gradient"
+        [xAxis]="showXAxis"
+        [yAxis]="showYAxis"
+        [legend]="showLegend"
+        [showXAxisLabel]="showXAxisLabel"
+        [showYAxisLabel]="showYAxisLabel"
+        [xAxisLabel]="xAxisLabel"
+        [yAxisLabel]="yAxisLabel"
+        [legendTitle]="legendTitle"
+        [roundDomains]="roundDomains"
+        [noBarWhenZero]="noBarWhenZero" 
+        > -->
+        <ngx-charts-bar-vertical
+        [view]="[ContainerRef.offsetWidth, 400]"
+        [scheme]="colorScheme"
+        [results]="multi"
+        [gradient]="gradient"
+        [xAxis]="showXAxis"
+        [yAxis]="showYAxis"
+        [legend]="showLegend"
+        [showXAxisLabel]="showXAxisLabel"
+        [showYAxisLabel]="showYAxisLabel"
+        [xAxisLabel]="xAxisLabel"
+        [yAxisLabel]="yAxisLabel"
+        [legendTitle]="legendTitle"
+        (select)="onSelect($event)">
+</ngx-charts-bar-vertical>
+</div>

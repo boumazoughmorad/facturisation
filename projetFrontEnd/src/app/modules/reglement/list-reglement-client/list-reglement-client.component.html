@@ -1,0 +1,123 @@
+<!-- <br><br><br><div style="background-color: rgb(199, 231, 250); ">
+
+    <button class="btn btn-danger btn-rounded btn-fw" routerLink="/welcome/info_categorier/ajouter_categorier"> ajouter produit</button>
+    
+            
+    <div class="container-scroller" >
+    <div class="container-fluid page-body-wrapper" >
+    <div class="main-panel" >
+
+    <div class=" grid-margin stretch-card" >
+        <div class="card" style="background-color: rgb(253, 220, 220);">
+            <div class="card-body"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+              <h4 class="card-title">Doughnut chart</h4>
+              <canvas id="doughnutChart" style="height: 289px; display: block; width: 578px;" width="578" height="289" class="chartjs-render-monitor"></canvas>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</div>
+</div>
+</div> -->
+<br><br>
+<!-- <div [hidden]="!chart">
+    <canvas id="canvas" style="height: 289px; display: block; " width="0.1" height="20"></canvas>
+  </div> -->
+  
+  <button></button>
+<div class="card mt-3 p-3">
+    <br><br><br>
+    <div class="">
+      <div class="card-body card-prix ">
+        <div class="demo-button-container row" fxLayoutAlign="flex-end">
+         <div class="col-2"> <button type="button" class="btn btn-success" routerLink="/welcome/reglement/ajouterReglemnt" >
+            <i class="fa fa-plus-circle fa-lg me-1" aria-hidden="true"></i>
+            Ajoute Reglement</button>
+        </div><div class="col-2"></div>
+        <div class="col-8">
+        <input  placeholder="Rechereche" style="width: 100%;"  [(ngModel)]="firstName"></div>
+      <!-- </mat-form-field> -->
+    </div>
+        </div>
+        
+    
+          
+    <br>
+        <div>
+          <table  style="width: 100%;">
+            <hr style="border-top: 1px dashed red;">
+
+            <tbody *ngFor="let reglements of reglements | filter:firstName ">
+                <tr>
+                    <th > N° Document </th>
+                    <td >
+                        <i *ngFor="let bay of bay ">
+                      <i *ngFor="let document of documents ">
+                        <i *ngIf="document.id==bay.id_document && bay.id_reglement==reglements.id">
+                          {{document.Nom_document}}
+                        </i>
+                      </i>
+                    </i>
+                    </td>
+                  </tr>
+       
+      
+           <tr>
+              <th > Code RF </th>
+              <td > {{reglements.reference_reg}} </td>
+         </tr>
+    
+    
+            <tr>
+              <th > Mode de Réglement </th>
+             </tr>
+    
+            <tr>
+              <th > Avance </th>
+              <!-- <td >{{reglements.prix_payée}}</td> -->
+         
+            </tr>
+            <tr>
+            
+              <th > Reste </th>
+              <td >{{reglements.prix_reste}}</td>
+            </tr>
+            <tr>
+    
+           
+              <th > Status </th>
+              <td >
+                <span *ngIf="reglements.deleted_at!=null" class="span-satus-true">R</span>
+                <span  *ngIf="reglements.deleted_at==null" class="span-satus-false">S</span>
+              </td>
+            </tr>
+    
+            <!-- Action column -->
+            <tr>
+              <th > Actions </th>
+              <td >
+                <div class="actions">
+                  <button  class="btn btn-outline-danger" (click)="supprimer(reglements.id)" href="welcome/reglement/listReglement">
+                    <i class="fa fa-trash"aria-hidden="true" >supprimer</i>
+                  </button>
+                </div>
+              </td>
+            </tr>
+            <!-- Row shown when there is no matching data. -->
+            <!-- <tr class="mat-row" >
+              <td class="mat-cell" colspan="4">No data matching the filter "input.value"</td>
+            </tr> -->
+            <hr style="border-top: 1px dashed red;width: 100%;">
+          </tbody>
+          </table>
+    
+          <!-- <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+          <notifier-container></notifier-container> -->
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- ############################"" -->
+    

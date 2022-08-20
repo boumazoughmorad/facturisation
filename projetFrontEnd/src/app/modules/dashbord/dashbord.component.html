@@ -1,0 +1,300 @@
+<br><br><br><br>
+<div class="containe">
+    <div class="row">
+        <div class="col-md-6 col-xl-4">
+            <div class="card bg-c-blue order-card">
+                <div class="card-block">
+                    <h2 class="m-b-20 cen">Clients</h2>
+                    <div class="f-right">
+                    <h4 ><span>non supprimer</span></h4>
+                    <ng-container *ngIf="count_client && count_client.nonsupprimar  ">
+
+                    <h2 ><span>{{count_client.nonsupprimar}}</span></h2>
+                    </ng-container>
+                </div>
+                <div class="f-left">
+                    <h4 ><span>tous</span></h4>
+                    <ng-container *ngIf="count_client && count_client.tous  ">
+
+                    <h2 ><span>{{count_client.tous}}</span></h2></ng-container>
+                </div>
+                    <mat-icon class=" f-left">people_outline</mat-icon>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-xl-4">
+            <div class="card bg-c-blue order-card">
+                <div class="card-block">
+                    <h2 class="m-b-20 cen">Fournisseurs</h2>
+                    <div class="f-right">
+                        <h4 ><span>non supprimer</span></h4>
+                    <ng-container *ngIf="count_fourn && count_fourn.nonsupprimar  ">
+
+                        <h2 ><span>{{count_fourn.nonsupprimar}}</span></h2></ng-container>
+                    </div>
+                    <div class="f-left">
+                        <h4 ><span>tous</span></h4>
+                        <ng-container *ngIf="count_fourn && count_fourn.tous  ">
+    
+                        <h2 ><span>{{count_fourn.tous}}</span></h2></ng-container>
+                    </div>
+                    <mat-icon class=" f-left">people_outline</mat-icon>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-xl-4">
+            <div class="card bg-c-pink order-card">
+                <div class="card-block">
+                    <h2 class="m-b-20 cen" style="text-align: center;">Catégories</h2>
+                    <div class="f-right">
+                        
+                        <h4 ><span>non supprimer</span></h4>
+                    <ng-container *ngIf="count_catego && count_catego.nonsupprimar  ">
+
+                        <h2 ><span>{{count_catego.nonsupprimar}}</span></h2></ng-container>
+                    </div>
+                  
+
+                    <div class="f-left">
+                        <h4 ><span>tous</span></h4>
+                        <ng-container *ngIf="count_catego && count_catego.tous  ">
+
+                        <h2 ><span>{{count_catego.tous}}</span></h2></ng-container>
+                    </div>
+                 
+
+                    <i class="bx bx-category  f-left" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+	</div>
+    <div class="row">
+        <div class="col-md-6 col-xl-6">
+            <div class="card bg-c-pink order-card">
+                <div class="card-block">
+                    <h2 class="m-b-20 cen">Produits</h2>
+                    <div class="f-right">
+                        <h4 ><span>non supprimer</span></h4>
+                    <ng-container *ngIf="count_produit && count_produit.nonsupprimar  ">
+
+                        <h2 ><span>{{count_produit.nonsupprimar}}</span></h2></ng-container>
+                    </div>
+                  
+    
+                    <div class="f-left">
+                        <h4 ><span>tous</span></h4>
+                        <ng-container *ngIf="count_produit && count_produit.tous  ">
+    
+                        <h2 ><span>{{count_produit.tous}}</span></h2></ng-container>
+                    </div>
+                    <i class="fa fa-cubes f-left" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+          
+        <div class="col-md-6 col-xl-6">
+            <div class="card bg-c-yellow order-card">
+                <div class="card-block">
+                    <h2 class="m-b-20 cen">Règ. Fournisseurs</h2>
+                    <div class="f-right">
+                        <h4 ><span>non supprimer</span></h4>
+                        <ng-container *ngIf="count_doc && count_doc[3].nonsupprimar  ">
+
+                        <h2 ><span>{{count_doc[3].nonsupprimar}}</span></h2></ng-container>
+                    </div>
+                    <div class="f-left">
+                        <h4 ><span>tous</span></h4>
+                        <ng-container *ngIf="count_doc && count_doc[3].tous  ">
+    
+                        <h2 ><span>{{count_doc[3].tous}}</span></h2></ng-container>
+                    </div>
+                    <i class="bx bx-money  f-left" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        
+     
+	</div>
+   
+       
+        <div class="row">
+            <div class="col-md-6 col-xl-4">
+                <div class="card bg-c-green order-card">
+                    <div class="card-block">
+                        <h2 class="m-b-20 cen">Factures</h2>
+                        <div class="f-right">
+                            <h4 ><span>non supprimer</span></h4>
+                        <ng-container *ngIf="count_doc && count_doc[4].nonsupprimar  ">
+
+                            <h2 ><span>{{count_doc[4].nonsupprimar}}</span></h2></ng-container>
+                        </div>
+                        <div class="f-left">
+                            <h4 ><span>tous</span></h4>
+                            <ng-container *ngIf="count_doc && count_doc[4].tous  ">
+        
+                            <h2 ><span>{{count_doc[4].tous}}</span></h2></ng-container>
+                        </div>
+                        <i class="fa fa-files-o f-left" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+                <div class="card bg-c-green order-card">
+                    <div class="card-block">
+                        <h2 class="m-b-20 cen">Demmande de prix</h2>
+                        <div class="f-right">
+                            <h4 ><span>non supprimer</span></h4>
+                        <ng-container *ngIf="count_doc && count_doc[0].nonsupprimar  ">
+
+                            <h2 ><span>{{count_doc[0].nonsupprimar}}</span></h2></ng-container>
+                        </div>
+                        <div class="f-left">
+                            <h4 ><span>tous</span></h4>
+                            <ng-container *ngIf="count_doc && count_doc[0].tous  ">
+        
+                            <h2 ><span>{{count_doc[0].tous}}</span></h2></ng-container>
+                        </div>
+                        <i class="fa fa-files-o f-left" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+      <div class="col-md-6 col-xl-4">
+        <div class="card bg-c-green order-card">
+            <div class="card-block">
+                <h2 class="m-b-20 cen">Bons Livraison</h2>  
+                 <div class="f-right">
+                    <h4 ><span>non supprimer</span></h4>
+                    <ng-container *ngIf="count_doc && count_doc[3].nonsupprimar  ">
+
+                    <h2 ><span>{{count_doc[3].nonsupprimar}}</span></h2></ng-container>
+                </div>
+                <div class="f-left">
+                    <h4 ><span>tous</span></h4>
+                    <ng-container *ngIf="count_doc && count_doc[3].tous  ">
+
+                    <h2 ><span>{{count_doc[3].tous}}</span></h2></ng-container>
+                </div>
+                <i class="bx bx-cart-download  f-left" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    
+
+        
+        
+	</div>
+    <div class="row">
+        <div class="col-md-6 col-xl-4">
+            <div class="card bg-c-green order-card">
+                <div class="card-block">
+                    <h2 class="m-b-20 cen">Bon commande</h2>
+                    <div class="f-right">
+                        <h4 ><span>non supprimer</span></h4>
+                    <ng-container *ngIf="count_doc && count_doc[1].nonsupprimar  ">
+
+                        <h2 ><span>{{count_doc[1].nonsupprimar}}</span></h2></ng-container>
+                    </div>
+                    <div class="f-left">
+                        <h4 ><span>tous</span></h4>
+                        <ng-container *ngIf="count_doc && count_doc[1].tous  ">
+    
+                        <h2 ><span>{{count_doc[1].tous}}</span></h2></ng-container>
+                    </div>
+                    <i class="fa fa-files-o f-left" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xl-4">
+            <div class="card bg-c-green order-card">
+                <div class="card-block">
+                    <h2 class="m-b-20 cen">Avoir</h2>
+                    <div class="f-right">
+                        <h4 ><span>non supprimer</span></h4>
+                    <ng-container *ngIf="count_doc && count_doc[5].nonsupprimar  ">
+
+                        <h2 ><span>{{count_doc[5].nonsupprimar}}</span></h2></ng-container>
+                    </div>
+                    <div class="f-left">
+                        <h4 ><span>tous</span></h4>
+                        <ng-container *ngIf="count_doc && count_doc[5].tous  ">
+    
+                        <h2 ><span>{{count_doc[5].tous}}</span></h2></ng-container>
+                    </div>
+                    <i class="fa fa-files-o f-left" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-6 col-xl-4">
+            <div class="card bg-c-green order-card">
+                <div class="card-block">
+                    <h2 class="m-b-20 cen">Devis</h2>
+                    <div class="f-right">
+                        <h4 ><span>non supprimer</span></h4>
+                    <ng-container *ngIf="count_doc && count_doc[2].nonsupprimar  ">
+
+                        <h2 ><span>{{count_doc[2].nonsupprimar}}</span></h2></ng-container>
+                    </div>
+                    <div class="f-left">
+                        <h4 ><span>tous</span></h4>
+                        <ng-container *ngIf="count_doc && count_doc[2].tous  ">
+    
+                        <h2 ><span>{{count_doc[2].tous}}</span></h2></ng-container>
+                    </div>
+                    <i class="bx bx-cart  f-left" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    
+    
+</div>
+<div class="card line-chart-card">
+
+    <app-line-chart2></app-line-chart2>
+    
+</div>
+    
+    <div class="row mt-5">
+        <div class="col-md-12 col-xl-6">
+            <div class="card bar-chart-card">
+
+                <app-grouped-vertical-bar-chart></app-grouped-vertical-bar-chart>
+                
+            </div>
+        </div>
+
+        <div class="col-md-12  col-xl-6">
+            <div class="card line-chart-card">
+
+                <app-line-chart></app-line-chart>
+
+            </div>
+        </div>
+    
+    </div>
+
+
+    <div class="row mt-2">
+        <div class="col-md-12 col-xl-6">
+            <div class="card pie-chart-card">
+
+                <app-pie-chart></app-pie-chart>
+                
+            </div>
+        </div>
+
+        <div class="col-md-12  col-xl-6">
+            <div class="card doughnut-chart-card">
+
+                <app-doughnut-chart></app-doughnut-chart>
+
+            </div>
+        </div>
+    
+    </div>
+
+</div>
+
